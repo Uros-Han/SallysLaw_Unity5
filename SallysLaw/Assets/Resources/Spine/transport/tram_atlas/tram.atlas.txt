@@ -1,0 +1,118 @@
+
+tram.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+father/body1
+  rotate: false
+  xy: 2, 595
+  size: 387, 273
+  orig: 387, 273
+  offset: 0, 0
+  index: -1
+father/body2
+  rotate: false
+  xy: 391, 651
+  size: 320, 217
+  orig: 320, 217
+  offset: 0, 0
+  index: -1
+father/foothold
+  rotate: false
+  xy: 713, 837
+  size: 88, 31
+  orig: 88, 31
+  offset: 0, 0
+  index: -1
+father/foothold2
+  rotate: false
+  xy: 324, 286
+  size: 63, 32
+  orig: 63, 32
+  offset: 0, 0
+  index: -1
+father/foothold3
+  rotate: false
+  xy: 713, 802
+  size: 41, 33
+  orig: 41, 33
+  offset: 0, 0
+  index: -1
+father/foothold4
+  rotate: true
+  xy: 691, 584
+  size: 65, 8
+  orig: 65, 8
+  offset: 0, 0
+  index: -1
+father/glass
+  rotate: false
+  xy: 391, 554
+  size: 298, 95
+  orig: 340, 151
+  offset: 42, 0
+  index: -1
+sally/glass
+  rotate: false
+  xy: 391, 554
+  size: 298, 95
+  orig: 340, 151
+  offset: 42, 0
+  index: -1
+father/wheel
+  rotate: false
+  xy: 2, 76
+  size: 376, 23
+  orig: 376, 23
+  offset: 0, 0
+  index: -1
+sally/body1
+  rotate: false
+  xy: 2, 320
+  size: 387, 273
+  orig: 387, 273
+  offset: 0, 0
+  index: -1
+sally/body2
+  rotate: false
+  xy: 2, 101
+  size: 320, 217
+  orig: 320, 217
+  offset: 0, 0
+  index: -1
+sally/foothold
+  rotate: false
+  xy: 391, 521
+  size: 88, 31
+  orig: 88, 31
+  offset: 0, 0
+  index: -1
+sally/foothold2
+  rotate: false
+  xy: 2, 17
+  size: 63, 32
+  orig: 63, 32
+  offset: 0, 0
+  index: -1
+sally/foothold3
+  rotate: false
+  xy: 391, 486
+  size: 41, 33
+  orig: 41, 33
+  offset: 0, 0
+  index: -1
+sally/foothold4
+  rotate: false
+  xy: 803, 860
+  size: 65, 8
+  orig: 65, 8
+  offset: 0, 0
+  index: -1
+sally/wheel
+  rotate: false
+  xy: 2, 51
+  size: 376, 23
+  orig: 376, 23
+  offset: 0, 0
+  index: -1

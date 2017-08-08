@@ -1,0 +1,34 @@
+
+Home_door.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+house/door
+  rotate: false
+  xy: 2, 204
+  size: 163, 158
+  orig: 163, 158
+  offset: 0, 0
+  index: -1
+house/door1
+  rotate: false
+  xy: 2, 44
+  size: 163, 158
+  orig: 163, 158
+  offset: 0, 0
+  index: -1
+house/door2
+  rotate: false
+  xy: 167, 204
+  size: 163, 158
+  orig: 163, 158
+  offset: 0, 0
+  index: -1
+house/doornob
+  rotate: false
+  xy: 2, 2
+  size: 16, 40
+  orig: 16, 40
+  offset: 0, 0
+  index: -1

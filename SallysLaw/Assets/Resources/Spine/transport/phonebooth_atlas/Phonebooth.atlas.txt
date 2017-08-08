@@ -1,0 +1,55 @@
+
+Phonebooth.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+father/hat
+  rotate: false
+  xy: 2, 2
+  size: 78, 32
+  orig: 78, 32
+  offset: 0, 0
+  index: -1
+father/in
+  rotate: false
+  xy: 162, 324
+  size: 143, 172
+  orig: 143, 172
+  offset: 0, 0
+  index: -1
+father/out
+  rotate: false
+  xy: 2, 267
+  size: 158, 229
+  orig: 158, 229
+  offset: 0, 0
+  index: -1
+sally/hat
+  rotate: false
+  xy: 307, 464
+  size: 78, 32
+  orig: 78, 32
+  offset: 0, 0
+  index: -1
+sally/in
+  rotate: false
+  xy: 162, 150
+  size: 143, 172
+  orig: 143, 172
+  offset: 0, 0
+  index: -1
+sally/out
+  rotate: false
+  xy: 2, 36
+  size: 158, 229
+  orig: 158, 229
+  offset: 0, 0
+  index: -1
+sally/phone
+  rotate: false
+  xy: 162, 88
+  size: 30, 60
+  orig: 30, 60
+  offset: 0, 0
+  index: -1

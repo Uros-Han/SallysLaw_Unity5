@@ -1,0 +1,104 @@
+
+Timecapsule.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bubble
+  rotate: false
+  xy: 2, 301
+  size: 197, 198
+  orig: 225, 237
+  offset: 17, 32
+  index: -1
+inout
+  rotate: false
+  xy: 2, 122
+  size: 168, 177
+  orig: 170, 178
+  offset: 1, 1
+  index: -1
+light
+  rotate: false
+  xy: 201, 360
+  size: 139, 139
+  orig: 139, 139
+  offset: 0, 0
+  index: -1
+par1
+  rotate: false
+  xy: 43, 43
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+par2
+  rotate: false
+  xy: 2, 2
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+par3
+  rotate: false
+  xy: 383, 480
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+timecapsule/line
+  rotate: false
+  xy: 2, 58
+  size: 62, 62
+  orig: 64, 64
+  offset: 1, 1
+  index: -1
+timecapsule/time1
+  rotate: false
+  xy: 201, 314
+  size: 39, 44
+  orig: 41, 46
+  offset: 1, 1
+  index: -1
+timecapsule/time2
+  rotate: false
+  xy: 342, 456
+  size: 39, 43
+  orig: 41, 43
+  offset: 1, 0
+  index: -1
+timecapsule/time3
+  rotate: false
+  xy: 2, 20
+  size: 39, 36
+  orig: 41, 36
+  offset: 1, 0
+  index: -1
+timecapsule/time4
+  rotate: false
+  xy: 242, 326
+  size: 39, 32
+  orig: 39, 33
+  offset: 0, 0
+  index: -1
+timecapsule/time5
+  rotate: false
+  xy: 66, 89
+  size: 44, 31
+  orig: 45, 33
+  offset: 0, 1
+  index: -1
+timecapsule/time6
+  rotate: false
+  xy: 342, 422
+  size: 34, 32
+  orig: 35, 32
+  offset: 0, 0
+  index: -1
+timecapsule/time7
+  rotate: false
+  xy: 172, 269
+  size: 25, 30
+  orig: 27, 30
+  offset: 1, 0
+  index: -1

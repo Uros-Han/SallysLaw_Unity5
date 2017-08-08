@@ -1,0 +1,307 @@
+
+atlas.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bird/bird_01/body
+  rotate: false
+  xy: 224, 636
+  size: 66, 51
+  orig: 68, 53
+  offset: 1, 1
+  index: -1
+Bird/bird_01/body_cover
+  rotate: false
+  xy: 661, 971
+  size: 66, 51
+  orig: 68, 53
+  offset: 1, 1
+  index: -1
+Bird/bird_01/head
+  rotate: false
+  xy: 397, 861
+  size: 21, 66
+  orig: 23, 68
+  offset: 1, 1
+  index: -1
+Bird/bird_01/leg_L01
+  rotate: false
+  xy: 1015, 988
+  size: 7, 34
+  orig: 9, 36
+  offset: 1, 1
+  index: -1
+Bird/bird_01/leg_L02
+  rotate: false
+  xy: 217, 539
+  size: 5, 33
+  orig: 7, 35
+  offset: 1, 1
+  index: -1
+Bird/bird_01/leg_L03
+  rotate: true
+  xy: 297, 730
+  size: 17, 5
+  orig: 19, 7
+  offset: 1, 1
+  index: -1
+Bird/bird_01/leg_R01
+  rotate: false
+  xy: 104, 144
+  size: 15, 27
+  orig: 17, 29
+  offset: 1, 1
+  index: -1
+Bird/bird_01/leg_R02
+  rotate: false
+  xy: 308, 839
+  size: 36, 8
+  orig: 38, 10
+  offset: 1, 1
+  index: -1
+Bird/bird_01/leg_R03
+  rotate: false
+  xy: 224, 562
+  size: 11, 19
+  orig: 13, 21
+  offset: 1, 1
+  index: -1
+Bird/bird_01/neck
+  rotate: true
+  xy: 915, 942
+  size: 37, 55
+  orig: 39, 57
+  offset: 1, 1
+  index: -1
+Bird/bird_01/wing
+  rotate: true
+  xy: 797, 968
+  size: 54, 57
+  orig: 56, 59
+  offset: 1, 1
+  index: -1
+Bird/bird_02/body
+  rotate: false
+  xy: 224, 583
+  size: 66, 51
+  orig: 68, 53
+  offset: 1, 1
+  index: -1
+Bird/bird_02/body_cover
+  rotate: false
+  xy: 729, 971
+  size: 66, 51
+  orig: 68, 53
+  offset: 1, 1
+  index: -1
+Bird/bird_02/head
+  rotate: true
+  xy: 588, 941
+  size: 21, 66
+  orig: 23, 68
+  offset: 1, 1
+  index: -1
+Bird/bird_02/leg_L01
+  rotate: false
+  xy: 1015, 952
+  size: 7, 34
+  orig: 9, 36
+  offset: 1, 1
+  index: -1
+Bird/bird_02/leg_L02
+  rotate: true
+  xy: 2, 3
+  size: 5, 33
+  orig: 7, 35
+  offset: 1, 1
+  index: -1
+Bird/bird_02/leg_L03
+  rotate: false
+  xy: 661, 964
+  size: 17, 5
+  orig: 19, 7
+  offset: 1, 1
+  index: -1
+Bird/bird_02/leg_R01
+  rotate: false
+  xy: 121, 144
+  size: 14, 27
+  orig: 16, 29
+  offset: 1, 1
+  index: -1
+Bird/bird_02/leg_R02
+  rotate: true
+  xy: 204, 420
+  size: 36, 8
+  orig: 38, 10
+  offset: 1, 1
+  index: -1
+Bird/bird_02/leg_R03
+  rotate: false
+  xy: 104, 123
+  size: 11, 19
+  orig: 13, 21
+  offset: 1, 1
+  index: -1
+Bird/bird_02/neck
+  rotate: false
+  xy: 104, 195
+  size: 37, 55
+  orig: 39, 57
+  offset: 1, 1
+  index: -1
+Bird/bird_02/wing
+  rotate: true
+  xy: 856, 968
+  size: 54, 57
+  orig: 56, 59
+  offset: 1, 1
+  index: -1
+Street_light/Street_light_01_fafa/base
+  rotate: false
+  xy: 2, 702
+  size: 118, 320
+  orig: 120, 322
+  offset: 1, 1
+  index: -1
+Street_light/Street_light_01_sally/base
+  rotate: false
+  xy: 2, 380
+  size: 118, 320
+  orig: 120, 322
+  offset: 1, 1
+  index: -1
+Street_light/Street_light_02_fafa/base
+  rotate: true
+  xy: 122, 388
+  size: 68, 80
+  orig: 70, 82
+  offset: 1, 1
+  index: -1
+Street_light/Street_light_02_sally/base
+  rotate: false
+  xy: 518, 942
+  size: 68, 80
+  orig: 70, 82
+  offset: 1, 1
+  index: -1
+Street_light/blur
+  rotate: true
+  xy: 2, 10
+  size: 104, 99
+  orig: 106, 101
+  offset: 1, 1
+  index: -1
+Street_light/on_fafa
+  rotate: true
+  xy: 972, 968
+  size: 54, 41
+  orig: 56, 43
+  offset: 1, 1
+  index: -1
+Street_light/on_sally
+  rotate: false
+  xy: 915, 981
+  size: 55, 41
+  orig: 57, 43
+  offset: 1, 1
+  index: -1
+Traffic_light/Traffic_light_Sally/traffic_01
+  rotate: false
+  xy: 2, 116
+  size: 100, 262
+  orig: 102, 264
+  offset: 1, 1
+  index: -1
+Traffic_light/Traffic_light_Sally/traffic_02
+  rotate: true
+  xy: 224, 749
+  size: 87, 78
+  orig: 89, 80
+  offset: 1, 1
+  index: -1
+Traffic_light/Traffic_light_fafa/traffic_01
+  rotate: false
+  xy: 122, 574
+  size: 100, 262
+  orig: 102, 264
+  offset: 1, 1
+  index: -1
+Traffic_light/Traffic_light_fafa/traffic_02
+  rotate: false
+  xy: 308, 849
+  size: 87, 78
+  orig: 89, 80
+  offset: 1, 1
+  index: -1
+cow/cow_fafa/body
+  rotate: false
+  xy: 308, 929
+  size: 114, 93
+  orig: 116, 95
+  offset: 1, 1
+  index: -1
+cow/cow_fafa/head
+  rotate: false
+  xy: 224, 689
+  size: 71, 58
+  orig: 73, 60
+  offset: 1, 1
+  index: -1
+cow/cow_fafa/mouth
+  rotate: false
+  xy: 104, 173
+  size: 31, 20
+  orig: 31, 20
+  offset: 0, 0
+  index: -1
+cow/cow_fafa/tail
+  rotate: false
+  xy: 104, 316
+  size: 33, 62
+  orig: 35, 64
+  offset: 1, 1
+  index: -1
+cow/cow_sally/body
+  rotate: true
+  xy: 122, 458
+  size: 114, 93
+  orig: 116, 95
+  offset: 1, 1
+  index: -1
+cow/cow_sally/head
+  rotate: false
+  xy: 588, 964
+  size: 71, 58
+  orig: 73, 60
+  offset: 1, 1
+  index: -1
+cow/cow_sally/mouth
+  rotate: false
+  xy: 972, 946
+  size: 31, 20
+  orig: 31, 20
+  offset: 0, 0
+  index: -1
+cow/cow_sally/tail
+  rotate: false
+  xy: 104, 252
+  size: 33, 62
+  orig: 35, 64
+  offset: 1, 1
+  index: -1
+window/light
+  rotate: false
+  xy: 424, 930
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+window/light_blur
+  rotate: false
+  xy: 122, 838
+  size: 184, 184
+  orig: 184, 184
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,160 @@
+
+Portal.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+inout
+  rotate: false
+  xy: 2, 333
+  size: 168, 177
+  orig: 170, 178
+  offset: 1, 1
+  index: -1
+inout2
+  rotate: false
+  xy: 2, 188
+  size: 143, 143
+  orig: 145, 145
+  offset: 1, 1
+  index: -1
+inout3
+  rotate: false
+  xy: 242, 250
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+par1
+  rotate: false
+  xy: 147, 318
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+par2
+  rotate: false
+  xy: 470, 494
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+par3
+  rotate: false
+  xy: 2, 2
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+portal_blue/centerlight
+  rotate: false
+  xy: 167, 12
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+portal_greenblue/centerlight
+  rotate: false
+  xy: 167, 12
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+portal_skyblue/centerlight
+  rotate: false
+  xy: 167, 12
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+portal_yellow/centerlight
+  rotate: false
+  xy: 167, 12
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+portal_green/centerlight
+  rotate: false
+  xy: 167, 12
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+portal_blue/inside
+  rotate: false
+  xy: 2, 23
+  size: 69, 68
+  orig: 70, 70
+  offset: 0, 1
+  index: -1
+portal_blue/outside
+  rotate: false
+  xy: 2, 93
+  size: 93, 93
+  orig: 95, 95
+  offset: 1, 1
+  index: -1
+portal_green/inside
+  rotate: true
+  xy: 97, 117
+  size: 69, 68
+  orig: 70, 70
+  offset: 0, 1
+  index: -1
+portal_green/outside
+  rotate: false
+  xy: 280, 417
+  size: 93, 93
+  orig: 95, 95
+  offset: 1, 1
+  index: -1
+portal_greenblue/inside
+  rotate: false
+  xy: 167, 144
+  size: 69, 68
+  orig: 70, 70
+  offset: 0, 1
+  index: -1
+portal_greenblue/outside
+  rotate: false
+  xy: 375, 417
+  size: 93, 93
+  orig: 95, 95
+  offset: 1, 1
+  index: -1
+portal_skyblue/inside
+  rotate: false
+  xy: 167, 74
+  size: 69, 68
+  orig: 70, 70
+  offset: 0, 1
+  index: -1
+portal_skyblue/outide
+  rotate: false
+  xy: 172, 309
+  size: 93, 93
+  orig: 95, 95
+  offset: 1, 1
+  index: -1
+portal_yellow/inside
+  rotate: true
+  xy: 97, 46
+  size: 69, 68
+  orig: 70, 70
+  offset: 0, 1
+  index: -1
+portal_yellow/outside
+  rotate: false
+  xy: 147, 214
+  size: 93, 93
+  orig: 95, 95
+  offset: 1, 1
+  index: -1
+strokelight
+  rotate: false
+  xy: 172, 404
+  size: 106, 106
+  orig: 106, 106
+  offset: 0, 0
+  index: -1

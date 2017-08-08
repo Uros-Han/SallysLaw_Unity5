@@ -1,0 +1,118 @@
+
+bus.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+father/body
+  rotate: false
+  xy: 453, 859
+  size: 387, 109
+  orig: 387, 109
+  offset: 0, 0
+  index: -1
+father/body1
+  rotate: false
+  xy: 2, 769
+  size: 449, 199
+  orig: 449, 199
+  offset: 0, 0
+  index: -1
+father/foothold
+  rotate: true
+  xy: 391, 478
+  size: 88, 31
+  orig: 88, 31
+  offset: 0, 0
+  index: -1
+father/foothold2
+  rotate: false
+  xy: 905, 936
+  size: 63, 32
+  orig: 63, 32
+  offset: 0, 0
+  index: -1
+father/foothold3
+  rotate: false
+  xy: 842, 872
+  size: 41, 33
+  orig: 41, 33
+  offset: 0, 0
+  index: -1
+father/foothold4
+  rotate: true
+  xy: 453, 666
+  size: 65, 8
+  orig: 65, 8
+  offset: 0, 0
+  index: -1
+father/wheel1
+  rotate: false
+  xy: 453, 796
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+father/wheel2
+  rotate: false
+  xy: 842, 907
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+sally/body
+  rotate: false
+  xy: 2, 457
+  size: 387, 109
+  orig: 387, 109
+  offset: 0, 0
+  index: -1
+sally/body1
+  rotate: false
+  xy: 2, 568
+  size: 449, 199
+  orig: 449, 199
+  offset: 0, 0
+  index: -1
+sally/foothold
+  rotate: false
+  xy: 516, 826
+  size: 88, 31
+  orig: 88, 31
+  offset: 0, 0
+  index: -1
+sally/foothold2
+  rotate: true
+  xy: 2, 329
+  size: 63, 32
+  orig: 63, 32
+  offset: 0, 0
+  index: -1
+sally/foothold3
+  rotate: false
+  xy: 65, 422
+  size: 41, 33
+  orig: 41, 33
+  offset: 0, 0
+  index: -1
+sally/foothold4
+  rotate: true
+  xy: 424, 501
+  size: 65, 8
+  orig: 65, 8
+  offset: 0, 0
+  index: -1
+sally/wheel1
+  rotate: false
+  xy: 2, 394
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+sally/wheel2
+  rotate: false
+  xy: 453, 733
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1

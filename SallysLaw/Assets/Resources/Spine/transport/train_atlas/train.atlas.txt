@@ -1,0 +1,104 @@
+
+train.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+father/body
+  rotate: false
+  xy: 2, 260
+  size: 384, 248
+  orig: 384, 248
+  offset: 0, 0
+  index: -1
+father/body1
+  rotate: false
+  xy: 388, 156
+  size: 82, 68
+  orig: 82, 68
+  offset: 0, 0
+  index: -1
+father/foothold
+  rotate: false
+  xy: 388, 59
+  size: 70, 25
+  orig: 70, 25
+  offset: 0, 0
+  index: -1
+father/foothold2
+  rotate: true
+  xy: 472, 174
+  size: 50, 26
+  orig: 50, 26
+  offset: 0, 0
+  index: -1
+father/foothold3
+  rotate: true
+  xy: 472, 87
+  size: 33, 26
+  orig: 33, 26
+  offset: 0, 0
+  index: -1
+father/foothold4
+  rotate: false
+  xy: 2, 2
+  size: 52, 6
+  orig: 52, 6
+  offset: 0, 0
+  index: -1
+father/wheel
+  rotate: true
+  xy: 388, 226
+  size: 282, 53
+  orig: 282, 53
+  offset: 0, 0
+  index: -1
+sally/body
+  rotate: false
+  xy: 2, 10
+  size: 384, 248
+  orig: 384, 248
+  offset: 0, 0
+  index: -1
+sally/body1
+  rotate: false
+  xy: 388, 86
+  size: 82, 68
+  orig: 82, 68
+  offset: 0, 0
+  index: -1
+sally/foothold
+  rotate: false
+  xy: 388, 32
+  size: 70, 25
+  orig: 70, 25
+  offset: 0, 0
+  index: -1
+sally/foothold2
+  rotate: true
+  xy: 472, 122
+  size: 50, 26
+  orig: 50, 26
+  offset: 0, 0
+  index: -1
+sally/foothold3
+  rotate: false
+  xy: 388, 4
+  size: 33, 26
+  orig: 33, 26
+  offset: 0, 0
+  index: -1
+sally/foothold4
+  rotate: true
+  xy: 460, 32
+  size: 52, 6
+  orig: 52, 6
+  offset: 0, 0
+  index: -1
+sally/wheel
+  rotate: true
+  xy: 443, 226
+  size: 282, 53
+  orig: 282, 53
+  offset: 0, 0
+  index: -1

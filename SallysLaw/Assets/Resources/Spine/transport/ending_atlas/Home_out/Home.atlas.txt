@@ -1,0 +1,90 @@
+
+Home.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+house/door
+  rotate: true
+  xy: 925, 922
+  size: 98, 95
+  orig: 98, 95
+  offset: 0, 0
+  index: -1
+house/door1
+  rotate: false
+  xy: 401, 571
+  size: 98, 95
+  orig: 98, 95
+  offset: 0, 0
+  index: -1
+house/door2
+  rotate: true
+  xy: 2, 39
+  size: 17, 93
+  orig: 98, 95
+  offset: 41, 1
+  index: -1
+house/doornob
+  rotate: false
+  xy: 501, 642
+  size: 10, 24
+  orig: 10, 24
+  offset: 0, 0
+  index: -1
+house/fafa
+  rotate: false
+  xy: 925, 854
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1
+house/fafa_light
+  rotate: false
+  xy: 401, 503
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1
+house/house_in
+  rotate: false
+  xy: 2, 780
+  size: 624, 240
+  orig: 624, 240
+  offset: 0, 0
+  index: -1
+house/house_out
+  rotate: false
+  xy: 2, 383
+  size: 397, 395
+  orig: 398, 395
+  offset: 0, 0
+  index: -1
+house/light
+  rotate: false
+  xy: 628, 731
+  size: 295, 289
+  orig: 305, 295
+  offset: 6, 3
+  index: -1
+house/light1
+  rotate: false
+  xy: 2, 58
+  size: 411, 323
+  orig: 414, 328
+  offset: 2, 1
+  index: -1
+house/light_window
+  rotate: false
+  xy: 401, 668
+  size: 170, 110
+  orig: 170, 110
+  offset: 0, 0
+  index: -1
+house/sally_light
+  rotate: false
+  xy: 573, 729
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1

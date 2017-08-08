@@ -1,0 +1,481 @@
+KEY,English,한국어,中文简体,中文繁體,Deutsch,Español
+,,,,,,
+,,,,,,
+Flag,Flag-US,Flag-KR,Flag-CHS,Flag-CHT,Flag-DE,Flag-ES
+Language,English,한국어,中文简体,中文繁體,Deutsch,Español
+Chapter,Chapter,챕터,章节,章節,Kapitel,Capítulo
+Stage,Stage,스테이지,关卡,關卡,Stufe,Fase
+TapToStart,Tap to start,탭하여 시작하세요,点击开始,觸屏開始,Zum Starten antippen,Toca para comenzar
+TapToStart_PC,{0} to start,{0} 를 눌러서 시작하세요.,{0} 开始,{0} 開始,Zum Starten {0},{0} para comenzar
+Back,Back,뒤로,返回,返回,Zurück,Volver
+Exit,Exit,나가기,退出,退出,Beenden,Salir
+Resume,Resume,계속하기,继续,繼續,Fortsetzen,Reanudar
+Retry,Retry,다시하기,重试,重試,Erneut versuchen,Reintentar
+Loading,Loading,불러오는 중,加载中,加載中,Laden,Cargando
+,,,,,,
+Chpt1,Chapter 1,제 1장,第一章,第一章,Kapitel 1,Capítulo 1
+Chpt2,Chapter 2,제 2장,第二章,第二章,Kapitel 2,Capítulo 2
+Chpt3,Chapter 3,제 3장,第三章,第三章,Kapitel 3,Capítulo 3
+Chpt4,Chapter 4,제 4장,第四章,第四章,Kapitel 4,Capítulo 4
+Chpt5,Chapter 5,제 5장,第五章,第五章,Kapitel 5,Capítulo 5
+,,,,,,
+Logo,SL_title,SL_title_korean,SL_title_CHS,SL_title_CHT,SL_title,SL_title
+,,,,,,
+ReallyQuit,Are you sure you want to quit the game?,정말 게임을 종료하시겠습니까?,确认退出游戏吗？,確認退出遊戲嗎？,Möchtest du das Spiel wirklich beenden?,¿Estás seguro de que quieres salir del juego?
+FatherMoveTutorial,Press here to move,버튼을 눌러 아빠를 이동해 보세요.,按键移动父亲,按鍵移動父親,Zum Bewegen hier drücken,Pulsa aquí para moverte
+FatherMoveTutorial_Keyboard,Press         to move,를 눌러 아빠를 이동해 보세요.,按键移动父亲,按鍵移動父親,Zum Bewegen         drücken,Pulsa         para moverte
+FastForwardTutorial,You can fast-forward Sally’s movement,버튼을 눌러 샐리의 시간을 빨리 감을 수 있어요.,按键可快速移动莎莉,按鍵可快速移動莎莉,Du kannst Sallys Bewegungen beschleunigen.,Puedes acelerar la velocidad de Sally
+FastForwardTutorial_PC,You can fast-forward Sally’s movement,를 눌러 샐리의 시간을 빨리 감을 수 있어요.,按键可快速移动莎莉,按鍵可快速移動莎莉,Du kannst Sallys Bewegungen beschleunigen.,Puedes acelerar la velocidad de Sally
+FastForward3DTutorial,Also you can fast-forward Sally's movement with 3D Touch,혹은 3D 터치로 꾹 눌러서 시간을 빨리 감을 수 있어요.,或长按3D可加速移动,或長按3D可快速移動,Du kannst Sallys Bewegungen außerdem mit 3D Touch beschleunigen.,También puedes acelerar la velocidad de Sally con 3D Touch
+FatherMoveTutorial_Joystick_R,Move Father to the right with ,로 아빠를 우측으로 이동해 보세요.,使用      将父亲移至右边,使用      將父親移至右邊,Bewege den Vater nach rechts mit ,Mueve a Papá hacia la derecha con 
+FatherMoveTutorial_Joystick_L,Move Father to the left with ,로 아빠를 좌측으로 이동해 보세요.,使用      将父亲移至左边,使用      將父親移至左邊,Bewege den Vater nach links mit ,Mueve a Papá hacia la izquierda con 
+,,,,,,
+,,,,,,
+//OPTIONS,,,,,,
+Sound,Sound,소리,声音,聲音,Sound,Sonido
+Music,Music,음악,音乐,音樂,Musik,Música
+Credit,Credit,크레딧,荣誉,榮譽,Guthaben,Crédito
+Lan,Language,언어,语言,語言,Sprache,Idioma
+On,On,켬,关,關,Ein,Sí
+Off,Off,끔,开,開,Aus,No
+Yes,Yes,예,是,是,Ja,Sí
+No,No,아니요,否,否,Nein,No
+Resolution,Resolution,해상도,画质,畫質,Auflösung,Resolución
+ScreenMode,Screen mode,화면 모드,屏幕模式,屏幕模式,Bildschirmmodus,Modo de pantalla
+FullScreen,Full Screen,전체 화면,全屏,全屏,Vollbild,Pantalla completa
+Window,Window,창 화면,窗口,窗口,Fenster,Ventana
+Apply,Apply,적용,应用,應用,Anwenden,Aplicar
+Select,Select,선택,选择,選擇,Auswählen,Seleccionar
+Control,Control,조작법,操作方法,操作方法,Steuerung,Control
+Jump,Jump,점프,跳跃,跳躍,Springen,Saltar
+Move,Move,이동,移动,移動,Bewegen,Moverse
+FastForward,Fast Forward,빨리 감기,快速,快速,Schneller Vorlauf,Acelerar
+,,,,,,
+RestoreMsg,Are you sure you want to restore all previously made purchases?,모든 이전 구매품들을 복원하시겠습니까?,是否要复原所有已购买物品？,是否要復原所有已購買物品？,Möchtest du alle vorherigen Einkäufe wiederherstellen?,¿Estás seguro de que quieres restaurar todas las compras realizadas?
+RestoreError,Failed to restore purchases,구매 복원에 실패하였습니다,复原失败,復原失敗,Wiederherstellung der Einkäufe fehlgeschlagen,No se pudieron restaurar las compras
+RestoreSuccess,Restored purchases,구매 복원에 성공하였습니다,复原成功,復原成功,Wiederhergestellte Einkäufe,Compras restauradas
+RestoreAlready,Already restored purchases,구매 복원 할 항목이 없습니다,无可复原的购买目录,無可復原的購買目錄,Bereits wiederhergestellte Einkäufe,Ya se han restaurado las compras
+,,,,,,
+LikeThis,How do you like Sally's Law so far?,이 게임이 마음에 드시나요?,您对游戏满意吗？,您對遊戲滿意嗎？,Wie gefällt dir Sally‘s Law bisher?,¿Te gusta Sally's Law?
+RateUs,Please consider rating us!,샐리의 법칙을 평가해 주세요!,请为莎莉定律评分！,請為莎莉定律評分！,Bitte bewerte unser Spiel!,¡Tómate un minuto para puntuarlo!
+Rate,Rate,평가하기,评分,評分,Bewerten,Puntuar
+Later,Later,나중에,以后再说,以後再說,Später,Más tarde
+ConnectErr,Please connect to the Internet,인터넷 연결을 확인해 주세요.,请确认网络连接,請確認網路連接,Bitte stelle eine Internetverbindung her.,Conéctate a internet
+GameCenterConnectErr,Please connect to the GameCenter,게임센터 연결을 확인해 주세요.,请确认游戏中心连接,請確認遊戲中心連接,Bitte verbinde dich mit dem Game Center.,Conéctate a Game Center
+GameCenterErr,Game Center Unavailable,게임센터를 이용할 수 없습니다.,无法连接游戏中心,無法連接遊戲中心,Game Center nicht verfügbar,Game Center no disponible
+SignInErr,Player is not signed in,게임센터에 로그인 하지 않았습니다.,玩家未登录,玩家未登入,Spieler ist nicht angemeldet.,El jugador no ha iniciado sesión
+,,,,,,
+//ALBUM,,,,,,
+Album_Need,Collect {1} more precious memories \n to complete Memorial Photo {0}.,‘{0}’ 사진을 완성하려면 챕터{2} 에서 \n소중한 기억 {1} 장을 더 모아야 합니다.,若要完成‘{0}’照片需要在第{2} 章中 \n获得 {1}张珍贵的回忆,若要完成‘{0}’照片需要在第{2} 章中 \n獲得 {1}張珍貴的回憶,"Sammle {1} weitere wertvolle Erinnerungen,\num das Erinnerungsfoto „{0}“ \nzu vervollständigen.",Recoge {1} recuerdos preciados más \n para completar la foto de recuerdo {0}.
+Album_skin1,Spring Picnic,봄 나들이,春日郊游,春日郊遊,Frühlingspicknick,Pícnic primaveral
+Album_skin2,Summer Camping,여름 캠핑,夏日野营,夏日野營,Sommercamp,Campamento de verano
+Album_skin3,Graduation,졸업식,毕业典礼,畢業典禮,Abschlussprüfung,Graduación
+Album_skin4,The Last Snow,마지막 눈,最后的雪,最後的雪,Der letzte Schnee,La última nevada
+Album_skin5,Reunion,재회,再会,再會,Wiedersehen,Reencuentro
+,,,,,,
+GetPhoto,You completed a memorial photo.,추억의 사진을 획득하였습니다.,已获得回忆的照片,已獲得回憶的照片,Du hast ein Erinnerungsfoto vervollständigt.,Has completado una foto de recuerdo.
+Author,Sally Wooden,샐리 우든,莎莉.姆登,莎莉.姆登,Sally Wooden,Sally de madera
+,,,,,,
+bookTitle_fox,Father’s Hunting Tips,아빠의 사냥 방법,父亲的狩猎方法,父親的狩獵方法,Vaters Jagdtipps,Consejos del espíritu de Papá
+bookTitle_leon,Girl & Uncle,소녀와 아저씨,少女与大叔,少女與大叔,Mädchen & Onkel,La chica y el tío
+bookTitle_christmas,Christmas Miracle,크리스마스의 기적,圣诞节的奇迹,聖誕節的奇跡,Weihnachtswunder,Milagro navideño
+,,,,,,
+ReallyBuy,Play as the characters from Sally's fairy tale.,샐리가 쓴 동화책의 코스튬을 \n구매해보세요!,成为莎莉写的童话主人公\n进行游戏！,成為莎莉寫的童話主人公\n進行遊戲！,Spiele als die Charaktere aus Sallys Märchen.,Juega como los personajes del cuento de hadas de Sally.
+3skin,3 SKIN,3 코스튬,3皮肤,3外觀,3 DESIGNS,3 ASPECTOS
+skinPrice,$0.99,"₩1,000",$0.99,$0.99,€1,€1
+Buy,BUY,구매,购买,購買,KAUFEN,COMPRAR
+PC_AchievementExplain,Unlock costume by completing \nall memorial photo.,‘수집가 ’ 도전 과제를 완료하면 \n잠금이 해제됩니다.,完成收藏夹的挑战后\n可解锁,完成收藏夾的挑戰後\n可解鎖,Freischalten durch Verdienen\ndes „Sammler“-Erfolgs,Desbloquéalo consiguiendo el logro \n“Coleccionista”
+,,,,,,
+,,,,,,
+////////STORY SCRIPT///,,,,,,
+Chpt1_Title,<An Unexpected Phone Call>,<갑작스러운 전화>,<毫无预告的电话>,<毫無預告的電話>,<Ein unerwarteter Anruf>,<Una llamada inesperada>
+,,,,,,
+//1-01_01,,,,,,
+Title1-1,Weekend Hike,주말 산책,周末散步,周末散步,Wochenendausflug,Excursión de fin de semana
+1-01_01_S01,Sally was born and raised \nin a small village in the woods.,샐리는 숲으로 둘러싸인 \n조용한 마을에서 태어났습니다.,莎莉出生在一个\n周围都是树林的小村庄。,莎莉出生在一個\n周圍都是樹林的小村莊。,Sally ist in einem kleinen Dorf im Wald\ngeboren und aufgewachsen.,Sally nació y se crió \nen una pequeña aldea del bosque.
+1-01_01_S02,Sally was an extraordinarily \nfortunate child.,그녀는 신기할 정도로 \n운이 좋은 아이였어요.,她超乎异常的\n好运。,她超乎異常的\n好運。,Sally war ein vom\nGlück beseeltes Kind.,Sally era una niña con \nuna suerte extraordinaria.
+1-01_01_F01,Sally's father was a carpenter.,샐리의 아버지는 \n목수였습니다.,莎莉的父亲\n是一名木匠。,莎莉的父親\n是一名木匠。,Sallys Vater war Schreiner.,El padre de Sally era carpintero.
+1-01_01_F02,Although he was cold \non the outside,그는 무뚝뚝한 사내여서,不懂得表达的他。,不懂得表達的他。,Obwohl er nach außen\nhin kalt wirkte,Aunque pudiera parecer frío
+1-01_01_F03,"and never expressed \nhis emotions,",딸에게 애정표현을 \n거의 하지 않았죠.,从来没有对女儿\n表达他的爱。,從來沒有對女兒\n表達他的愛。,"und niemals\nseine Gefühle zeigte,","y nunca expresara \nsus emociones,"
+1-01_01_F04,he loved his daughter very much.,그래도 그는 딸을 \n몹시 사랑했답니다.,但他还是非常爱他的女儿。,但他還是非常愛他的女兒。,liebte er seine Tochter sehr.,quería mucho a su hija.
+,,,,,,
+//1–01_02,,,,,,
+1-01_02_S01,Tap to jump.,탭하여 뛰세요.,点击跳跃,點選跳躍,Zum Springen antippen.,Toca para saltar.
+1-01_02_S01_PC,{0} to jump.,{0} 를 눌러 뛰세요.,请按 {0},請按 {0},Zum Springen {0},{0}{0} para saltar.
+1-01_02_S02,Sally loved to read books \never since she was a child.,어렸을 때부터 샐리는 \n책 읽는 것을 참 좋아했어요.,莎莉从小就喜欢看书。,莎莉從小就喜歡看書。,Sally liebte es schon als Kind\nBücher zu lesen.,A Sally le encantaba leer \ndesde su niñez.
+1-01_02_S03,There was nobody to befriend \nin her small village.,어울릴 친구들이 없는 마을에서,在没有朋友的村庄里,在沒有朋友的村莊裏,In dem kleinen Dorf gab es\nkeine Kinder zum Anfreunden.,No había otros niños para jugar \nen su aldea.
+1-01_02_S04,"So, books were her \nonly companions.",책은 샐리의 \n단 하나뿐인 친구였답니다.,书是她\n仅有的朋友。,書是她\n僅有的朋友。,Also wurden die Bücher\nihre einzigen Kameraden.,Así que los libros eran \nsus leales compañeros.
+1-01_02_F01,He struggled after \nlosing his wife.,그는 아내를 잃고 \n많이 힘들어했어요.,他失去妻子后\n非常的难过。,他失去妻子後\n非常的難過。,Er kämpfte mit dem\nVerlust seiner Frau.,Sufrió mucho tras perder \na su mujer.
+1-01_02_F02,"Even though time had passed, \nhis sadness remained.",세월이 흘러도 아내를 잃은 상실감은 \n지워지지 않았습니다.,即使岁月流逝\n妻子的离去也无法抹去。,即使歲月流逝\n妻子的離去也無法抹去。,"Obwohl bereits viel Zeit vergangen war,\nblieb seine Traurigkeit.","Aunque los años pasaron, \nsu dolor permaneció en su corazón."
+1-01_02_F03,He could not bear \nto lose another loved one.,그는 더 이상 소중한 사람을 \n잃고 싶지 않았죠.,他不想再失去\n重要的人。,他不想再失去\n重要的人。,"Er hätte es nicht ertragen,\nnoch eine geliebte Person zu verlieren.",No podía permitirse \nperder a otra persona querida.
+1-01_02_F04,So his concern \nfor his daughter grew ever greater.,딸에 대한 그의 걱정은 \n점점 커져만 갔습니다.,他渐渐的开始\n对女儿感到担心。,他漸漸的開始\n對女兒感到擔心。,Daher wuchs die Sorge\num seine Tochter immer weiter.,Por lo que se preocupó \naún más por su hija.
+,,,,,,
+//1-01_03,,,,,,
+1-01_03_S01,Sally liked going on walks \nwith her father.,샐리는 아빠와의 \n산책도 좋아했어요.,莎莉喜欢与\n父亲一起散步。,莎莉喜歡與\n父親一起散步。,Sally ging gerne\nmit ihrem Vater spazieren.,A Sally le gustaba salir a pasear \ncon su padre.
+1-01_03_S02,"Although she didn't enjoy \nthe difficult ascents,",오르막길을 오를 때 \n흐르는 땀과,虽然上坡很累,雖然上坡很累,Obwohl sie weder\ndie schwierigen Aufstiege,"Aunque no le gustaban las \nsubidas difíciles,"
+1-01_03_S03,"nor the scary \nand steep descents,",내리막 길의 무서움은 \n썩 내키지 않았지만,虽然下坡很害怕,雖然下坡很害怕,"noch die beängstigenden,\nsteilen Abstiege mochte,","ni los descensos \npronunciados,"
+1-01_03_S04,walks were the only precious times \nshe could spend with her father.,아빠와 함께할 수 있는 시간이 \n매우 드물었기 때문입니다.,但跟父亲 \n在一起的时间不多。,但跟父親 \n在一起的時間不多。,"war dies für sie die einzige, kostbare\nZeit gemeinsam mit ihrem Vater.",los paseos eran los únicos momentos que \npodía pasar con su padre.
+1-01_03_F01,Father liked \nwalking with Sally.,아빠 역시 샐리와의 \n산책을 좋아했답니다.,父亲也喜欢 \n和莎莉一起散步。,父親也喜歡 \n和莎莉一起散步。,Der Vater ging gerne\nmit Sally spazieren.,A Papá le gustaba \npasear con Sally.
+1-01_03_F02,"However, he was always busy \nand couldn't spend much time \nwith her.",하지만 아빠는 늘 바빴어요.,但是父亲总是很忙。,但是父親總是很忙。,Leider war er immer beschäftigt\nund konnte nie viel Zeit mit ihr\nverbringen.,"Por desgracia, siempre estaba ocupado \ny no podía pasar mucho tiempo con ella."
+1-01_03_F03,"He struggled to find time \nto spend with her,",샐리의 행복을 위해 \n 열심히 일 했지만,为了莎莉的幸福 \n努力的工作,為了莎莉的幸福 \n努力的工作,"Er bemühte sich,\nZeit für sie zu finden,","Intentaba buscar huecos \npara estar juntos,"
+1-01_03_F04,but it was \nextremely difficult.,정작 샐리를 위한 \n시간을 내기가 참 어려웠습니다.,但是却总是 \n没有时间陪着莎莉。,但是卻總是 \n沒有時間陪著莎莉。,aber es war\nsehr schwierig.,pero le era \nmuy complicado.
+,,,,,,
+//1-02_01,,,,,,
+Title1-2,An Unexpected Phone Call,갑작스러운 전화,毫无预告的电话,毫無預告的電話,Ein unerwarteter Anruf,Una llamada inesperada
+1-02_01_S01,"It was a day like any other, \nuntil I received the phone call.","오늘도 참 바쁜 하루였는데, \n전화 한 통으로 모든 게 틀어졌어.",今天是非常忙碌的一天， \n所有的一切都被一通电话打断。,今天是非常忙碌的一天， \n所有的一切都被一通電話打斷。,"Es war ein ganz gewöhnlicher Tag,\nbis ich den Anruf erhielt.","Era un día cualquiera y, \nde repente, recibí una llamada."
+1-02_01_S02,"”Sally, this is your uncle. \nYour father collapsed.”",”샐리야. 삼촌이란다. \n너희 아버지가 쓰러지셨어.”,”莎莉，是你叔叔。 \n你父亲晕倒了。”,”莎莉，是妳叔叔。 \n妳父親暈倒了。”,"„Sally, hier spricht dein Onkel.\nDein Vater ist zusammengebrochen.”","“Sally, soy tu tío. \nTu padre se ha desmayado”."
+1-02_01_S03,”Please hurry. \nYour father is in critical condition.”,”빨리 와줄 수 있겠니? \n아버지가 위독하시단다.”,”可以尽快赶过来吗？ \n你父亲病危了。”,”可以盡快趕過來嗎？ \n妳父親病危了。”,„Bitte beeil dich.\nDer Zustand deines Vaters ist kritisch.“,“Tienes que ir a verlo. \nTu padre está crítico”.
+1-02_01_F01,"Lately, I've been having chest pains. \nIt's been tough.",최근 가슴이 짓눌리듯 \n갑갑해지곤 했다. ,最近感觉心很痛\n也很闷。,最近感覺心很痛\n也很悶。,Ich hatte in letzter Zeit oft Brustschmerzen.\nEs war hart.,Llevo un tiempo con dolores en el pecho. \nHa sido muy duro.
+1-02_01_F02,"Suddenly, everything became distant.\nI don't remember what happened after.",갑자기 정신이 아득해졌고 \n그 이후의 일이 잘 기억나지 않는다.,突然记忆断片\n之后事情也记不清楚。,突然記憶斷片\n之後事情也記不清楚。,"Plötzlich war alles ganz weit entfernt.\nIch weiß nicht mehr, was danach geschah.","De repente, todo empezó a alejarse.\nNo recuerdo que ocurrió después."
+1-02_01_F03,"When I opened my eyes, \nI saw Sally.",눈을 떴는데 곁에 \n샐리가 보인다. ,睁开眼睛 \n莎莉已经在身边。,睜開眼睛 \n莎莉已經在身邊。,"Als ich meine Augen wieder öffnete,\nsah ich Sally.","Cuando abrí los ojos, \nvi a Sally."
+,,,,,,
+//1-02_02,,,,,,
+1-02_02_S01,The trolley will be leaving \nthe city soon.,도시를 떠날 전차가 \n곧 출발할 거야.,离开都市的电车\n马上就要出发。,離開都市的電車\n馬上就要出發。,Die Bahn wird bald\ndie Stadt verlassen.,El tranvía saldrá pronto \nde la ciudad.
+1-02_02_S02,I must not miss it.,전차 시간에 늦지 않아야 할 텐데.,一定要赶上电车。,一定要趕上電車。,Ich darf sie nicht verpassen.,No puedo perderlo.
+1-02_02_S03,It seems nothing is standing in \nmy way today.,오늘따라 \n막히는 일 없이 잘 풀리네.,今天特别顺利\n没有任何阻碍。,今天特別順利\n沒有任何阻礙。,Heute kann mich\nnichts aufhalten.,Parece que nada puede ponerse en \nmi camino hoy.
+1-02_02_F01,Sally is rushing off \nsomewhere.,샐리가 어딘가를 \n향해 급하게 달린다.,莎莉急匆匆的\n前往远方。,莎莉急匆匆的\n前往遠方。,Sally stürmt\nirgendwohin.,Sally se dirige con prisas \na algún sitio.
+1-02_02_F02,I must help her.,일단 아이를 \n도와주어야겠다.,要选帮助\n孩子们。,要選幫助\n孩子們。,Ich muss ihr helfen.,Debo ayudarla.
+,,,,,,
+//1-02_03,,,,,,
+1-02_03_S01,Why did Father have to collapse now \nwhen I'm so busy?,아빠는 왜 내가 이렇게 바쁠 때 \n쓰러지신 것인지.,父亲为什么在\n我这么忙的时候晕倒。,父親為什麽在\n我這麽忙的時候暈倒。,"Warum musste Vater zusammenbrechen,\nwenn ich so beschäftigt bin?",¿Por qué papá tiene que enfermar ahora \ncon lo ocupada que estoy?
+1-02_03_S02,"Why right now, Father?","왜 하필 \n지금인가요, 아빠.",为什么\n是现在呢？父亲,為什麽\n是現在呢？父親,"Warum ausgerechnet jetzt, Vater?",¿Por qué ahora?
+1-02_03_F01,"Although it's late, \nit's great that I can see my daughter.",늦었지만 지금이라도 \n딸아이를 볼 수 있어서 다행이다.,虽然为时已晚\n但很庆幸还能看到女儿。,雖然為時已晚\n但很慶幸還能看到女兒。,"Obwohl es spät ist,\nist es toll, dass ich meine Tochter sehen kann.","Aunque es tarde, \nme alegra poder ver a mi hijita."
+,,,,,,
+//1-04_01,,,,,,
+1-04_01_F01,You can jump \nby colliding with Sally.,샐리와 닿으면 \n점프할 수 있어요.,触碰到莎莉\n可以跳跃。,觸碰到莎莉\n可以跳躍。,"Du kannst springen,\nwenn du mit Sally zusammenstößt.",Puedes saltar \ntropezando con Sally.
+1-04_01_F02,Jump up here.,이쪽으로 올라와 보세요,请往这里上去。,請往這裏上去。,Springe hier hoch.,Salta hasta aquí.
+,,,,,,
+//1-05_01,,,,,,
+1-05_01_S01,"When I made it to the city, \nI just knew I'd become a wildly successful writer.",갓 상경했을 땐 곧 훌륭한 \n작가로 성공할 줄 알았지.,刚来到首都的时候\n总觉得自己会成为成功的作家。,剛來到首都的時候\n總覺得自己會成為成功的作家。,"Als ich in die Stadt kam,\nwar ich sicher, dass ich eine erfolgreiche Schriftstellerin werden würde.","Cuando llegué a la ciudad, \ntenía la corazonada de que sería \nuna gran escritora de éxito."
+1-05_01_S02,It felt as though my dreams \nhad become reality.,금방 이루어질 것만 \n같은 꿈에 설레었어.,感觉梦想马上会实现\n总是很兴奋。,感覺夢想馬上會實現\n總是很興奮。,"Es war, als wären meine Träume\nwahr geworden.",Parecía que mis sueños \nse habían hecho realidad.
+1-05_01_S03,I had the world \nat my fingertips.,무엇이든 해낼 수 \n있을 것만 같았지.,总感觉什么事情\n都可以解决。,總感覺什麽事情\n都可以解決。,Alles schien plötzlich\nmöglich zu sein.,Estaba dispuesta a comerme \nel mundo.
+1-05_01_F01,"When Sally left for the city, \nI recalled the day my wife died.","샐리가 떠나던 날, \n아내를 잃은 그 때가 떠올랐다.",莎莉离开的那一天，\n想起了失去妻子的那一天。,莎莉離開的那一天，\n想起了失去妻子的那一天。,"Als Sally in die Stadt zog,\ndachte ich an den Tag, als meine Frau starb.","Cuando Sally se fue a la ciudad, \nme acordé del día en el que murió mi esposa."
+1-05_01_F02,I thought the city was too dangerous \nfor my little Sally.,당시엔 도시가 \n너무 위험한 곳이라 생각했다.,当时认为城市\n是非常危险的地方。,當時認為城市\n是非常危險的地方。,"Ich fand, die Stadt wäre viel zu gefährlich\nfür meine kleine Sally.",Pensé que la ciudad sería demasiado peligrosa para \nmi pequeña Sally.
+1-05_01_F03,"I worried so much about her \nbeing there, all alone.",그땐 혼자 위험한 곳으로 가려는 \n딸이 너무 걱정되었지.,非常担心孤身前往\n危险之地的女儿。,非常擔心孤身前往\n危險之地的女兒。,"Ich machte mir große Sorgen um sie,\nganz allein dort.","Estaba muy preocupado por ella, \nallí tan sola."
+,,,,,,
+//1-06_01,,,,,,
+1-06_01_S01,"However, things weren't as easy \nas they had seemed.",하지만 일은 \n뜻대로 풀리지 않았지.,但是事情\n没有想象中的顺利。,但是事情\n沒有想象中的順利。,"Aber es war nicht so leicht,\nwie es zuerst schien.",Pero las cosas no fueron tan fáciles \ncomo parecían.
+1-06_01_S02,I worried more about survival \nthan my dreams.,꿈은커녕 먹고사는 \n걱정을 하게 되었고,不要说梦想\n就连生活都令人担心。,不要說夢想\n就連生活都令人擔心。,Ich musste eher ans Überleben denken\nals an meine Träume.,Me preocupaba más mi supervivencia \nque mis sueños.
+1-06_01_S03,"I struggled to keep up with reality, \nas hours and days spilled into the next.",현실에 쫓기며 \n하루하루 시간만 흘려 보냈지.,在残酷的现实中\n度过了一天又一天。,在殘酷的現實中\n度過了一天又一天。,"Ich versuchte, \nmit der Realität Schritt zu halten,\nwährend Stunden und Tage vergingen.","Luchaba a diario por seguir adelante, \nlas horas y los días acababan y volvían a empezar."
+1-06_01_F01,"After Sally left, \neverything became difficult.",샐리가 떠나자 \n모든 것이 힘들어졌다.,莎莉离开之后\n一切都变得很艰难。,莎莉離開之後\n一切都變得很艱難。,"Nachdem Sally fort war,\nwurde alles schwierig.","Tras la marcha de Sally, \ntodo se hizo más difícil."
+1-06_01_F02,A terrible loneliness \novercame me soon after.,곧 견디기 힘든 \n외로움이 찾아왔고,随之难熬的\n孤独开始伴随,隨之難熬的\n孤獨開始伴隨,Eine schreckliche Einsamkeit\nüberkam mich kurz darauf.,La soledad \nme invadió.
+1-06_01_F03,I silently struggled to escape reality \nby losing myself in my work.,나는 현실을 외면하려 \n묵묵히 일에만 열중하며 지냈다.,我选择逃避现实\n默默地一直工作着。,我選擇逃避現實\n默默地一直工作著。,"Ich wollte der Realität entfliehen, indem\nich mich in meine Arbeit stürzte.",Luché por escapar de la realidad \ntrabajando durante horas y horas.
+,,,,,,
+//1-06_02,,,,,,
+1-06_02_S01,"But, Why?","그런데 왜,",但是为什么，,但是為什麽，,"Aber, warum?",Pero ¿por qué?
+1-06_02_S02,Why now?,왜 하필 지금인지.,为什么偏偏是现在。,為什麽偏偏是現在。,Warum jetzt?,¿Por qué ahora?
+1-06_02_F01,"I know it's late,","늦었지만 지금이라도,",虽然为时已晚，,雖然為時已晚，,"Ich weiß, es ist spät,","Sé que es tarde,"
+1-06_02_F02,but it's such a relief \nto see you.,지금이라도 \n널 볼 수 있어서 다행이구나.,但现在能看见你\n也是一种幸运。,但現在能看見妳\n也是一種幸運。,"aber es ist so eine Erleichterung,\ndich zu sehen.",pero me alivia \npoder verte.
+,,,,,,
+//1-06_03,,,,,,
+1-06_03_S01,"I don't know if I would have hesitated, \nif I hadn't been so fortunate.",운조차 따라주지 않았더라면 \n난 아마 벌써 주저앉았을지도 몰라.,如果我连这一点运气都没有\n那我可能已经无法站起。,如果我連這一點運氣都沒有\n那我可能已經無法站起。,"Ich weiß nicht, ob ich gezögert hätte,\nwenn ich nicht so viel Glück gehabt hätte.","No sé si me lo habría pensado, \nsi no hubiera tenido tanta suerte."
+1-06_03_F01,"Hopefully I can be there for Sally, \nto keep her from faltering.",아이는 금방이라도 쓰러질 것 같다. \n딸아이를 계속 도울 수 있다면…,孩子好像马上就要晕倒了。\n如果可以一直帮助她的话…,孩子好像馬上就要暈倒了。\n如果可以一直幫助她的話…,"Hoffentlich kann ich für Sally da sein,\ndamit sie nicht ins Wanken gerät.","Con suerte, podré estar junto a Sally \ny protegerla."
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+Chpt2_Title,<Hurt>,<서운함>,<伤心>,<傷心>,<Schmerz>,<Dolor>
+,,,,,,
+//2-01_01,,,,,,
+Title2-1,Hurt,서운함,伤心,傷心,Schmerz,Dolor
+2-01_01_S01,Sally wanted to go on a walk \nwith Father.,샐리는 아빠와 \n산책을 하고 싶었어요.,莎莉很像和父亲\n一起散步。,莎莉很像和父親\n一起散步。,Sally wollte gerne mit Vater\nspazieren gehen.,Sally quería ir de paseo \ncon Papá.
+2-01_01_S02,"However, \nhe had become much busier,",하지만 아빠는 더욱 바빠졌고,但父亲越来越忙,但父親越來越忙,"Allerdings\nwar er immer beschäftigter,","Pero \nestaba demasiado ocupado,"
+2-01_01_S03,and they gradually spent \nless and less time together.,샐리와 아빠가 이야기할 수 있는 \n시간은 점점 줄어들었어요.,莎莉可以与父亲说话的时间\n越来越少。,莎莉可以與父親說話的時間\n越來越少。,und nach und nach verbrachten sie\nimmer weniger Zeit miteinander.,y cada vez pasaban menos \ntiempo juntos.
+2-01_01_F01,He had to fulfill both parental roles \nin caring for Sally.,아빠는 아내를 대신해서 \n샐리를 돌봐야 했어요.,父亲要代替母亲\n照顾莎莉。,父親要代替母親\n照顧莎莉。,"Er musste die Rollen beider Eltern übernehmen,\num für Sally zu sorgen.",Debía cumplir su papel de padre \ny cuidar de Sally.
+2-01_01_F02,"However, \nhe also could not neglect his work.",하지만 가장으로써 \n일도 소홀히 할 수 없었죠.,但作为一家之长\n工作无法减少。,但作為一家之長\n工作無法減少。,Allerdings durfte er\nauch seine Arbeit nicht vernachlässigen.,Pero \ntampoco podía abandonar su trabajo.
+2-01_01_F03,He had no choice \nbut to spend less time with Sally.,때문에 함께 보내는 시간은 \n줄어들 수밖에 없었답니다.,所以在一起的时间\n越来越少。,所以在一起的時間\n越來越少。,"Ihm blieb keine Wahl,\nals weniger Zeit mit Sally zu verbringen.","No tenía elección, \ndebía pasar menos tiempo con Sally."
+,,,,,,
+//2–01_02,,,,,,
+2-01_02_S01,Those branches \nlook dangerous.,저 멀리 위험해 보이는 \n나무 가시들이 보여요.,远处可以看到\n危险的刺。,遠處可以看到\n危險的刺。,Diese Zweige\nsehen gefährlich aus.,Esas ramas \nparecen peligrosas.
+2-01_02_S02,How did this happen? \nNot a single branch scraped Sally.,어떻게 된걸까요? \n샐리는 가시에 하나도 다치지 않았어요.,这是怎么回事？\n莎莉完全没有被刺。,這是怎麽回事？\n莎莉完全沒有被刺。,Wie kann das sein?\nKein einziger Zweig hat Sally gekratzt.,¿Cómo es posible? \nSally no tiene ni un rasguño de las ramas.
+2-01_02_F01,The branches look sharp.,나무 가시들이 \n날카로워 보여요.,那些刺看起来\n非常尖利。,那些刺看起來\n非常尖利。,Die Zweige sehen spitz aus.,Las ramas parecen afiladas.
+2-01_02_F02,Remove branches \nblocking Sally's way \nby rolling over them.,"나무 가시를 밟아서, \n샐리를 가로막는 가시들을 치워주세요.",踩着刺，\n为莎莉去除挡住道路的刺。,踩著刺，\n為莎莉去除擋住道路的刺。,"Entferne die Zweige,\ndie Sallys Weg versperren,\nindem du darüber rollst.",Aparta las ramas \nque bloquean el paso de Sally \nrodando a través de ellas.
+2-01_02_F03,He cleared the branches \nto help Sally.,아빠가 샐리를 위해 \n나무 가시를 치워줬어요.,父亲为莎莉\n去除了刺。,父親為莎莉\n去除了刺。,"Er räumte die Zweige aus dem Weg,\num Sally zu helfen.",Despejó las ramas \npara ayudar a Sally.
+,,,,,,
+//2-01_03,,,,,,
+2-01_03_S01,Oh no! \nSally took a hard fall!,아이쿠! \n샐리가 높은 곳에서 떨어졌어요.,哎呀！\n莎莉从高处跌落。,哎呀！\n莎莉從高處跌落。,Oh nein!\nSally ist schlimm gestürzt!,"¡Oh, no! \n¡Sally se ha caído!"
+2-01_03_S02,Maybe luck doesn't follow her \neverywhere.,샐리도 매번 운이 따르는 \n아이는 아닌가봐요.,莎莉不是每次\n都是非常好运的吗。,莎莉不是每次\n都是非常好運的嗎。,Vielleicht ist sie doch nicht überall\nvom Glück verfolgt.,Tal vez la suerte no le sonría \nsiempre.
+2-01_03_F01,It looks like the fall \nhurt Sally.,샐리가 떨어져서 \n다친 모양이예요.,莎莉跌落\n好像受伤了。,莎莉跌落\n好像受傷了。,Offenbar hat Sally sich\nbei dem Sturz wehgetan.,Parece que Sally se ha hecho daño \nen la caída.
+2-01_03_F02,Can he not protect her \nfrom everything?,아빠는 샐리를 완벽히 \n지켜줄 수 없는 걸까요?,父亲不能完美的\n守护她吗？,父親不能完美的\n守護她嗎？,Kann er sie nicht\nvor allem beschützen?,¿No puede protegerla \nde todo?
+,,,,,,
+//2-02_01,,,,,,
+2-02_01_S01,It's much quieter here \ncompared to the city.,도시보다는 \n많이 한적해졌어.,比在城市里\n清闲了许多。,比在城市裏\n清閑了許多。,Im Vergleich zur Stadt\nist es viel ruhiger hier.,Esto es mucho más tranquilo \nque la ciudad.
+2-02_01_S02,But I can't rest. \nI must keep moving.,그래도 한가롭게 쉬고 있을 수 없어. \n다시 움직여야 해.,可以悠闲的休息。\n准备重新出发。,可以悠閑的休息。\n準備重新出發。,Aber ich darf nicht ruhen.\nIch muss weiter.,No puedo pararme. \nDebo seguir adelante.
+2-02_01_F01,"It's much better here than in the city, \nhowever it's still chaotic.","도시 만큼은 아니지만, \n여전히 정신없는 곳이야.",虽然比城市里轻松，\n但还是不能放松。,雖然比城市裏輕松，\n但還是不能放松。,Hier ist es viel besser als in der Stadt.\nAber chaotisch ist es trotzdem.,"Se esta mejor aquí que en la ciudad, \naunque siga siendo caótico."
+2-02_01_F02,"As always, Sally looks like \nshe’s in a hurry.",샐리는 여전히 급박해 보인다.,莎莉看起来还是很忙碌。,莎莉看起來還是很忙碌。,"Wie immer sieht Sally aus,\nals hätte sie es sehr eilig.","Como siempre, parece que Sally \nva con prisas."
+,,,,,,
+//2-02_02,,,,,,
+2-02_02_S01,"Although they looked sharp, \nI don't think the bars are \nthat dangerous.","날카로워 보이는 창살이었는데, \n생각만큼 위험하진 않았어.",窗格子看起来很尖锐，\n但没有想象中的危险。,窗格子看起來很尖銳，\n但沒有想象中的危險。,"Obwohl sie scharf aussahen,\nglaube ich nicht, dass die Stäbe\nsehr gefährlich sind.","Aunque parecían afiladas, \ncreo que las barras no eran \ntan peligrosas."
+2-02_02_F01,Those bars looks dangerous. \nI need to remove it for Sally.,위험해 보이는 창살이다. \n아이를 위해 치워줘야겠다.,窗格子看起来很危险，\n为了孩子一定要除去。,窗格子看起來很危險，\n為了孩子一定要除去。,Diese Stäbe sehen gefährlich aus.\nIch muss sie für Sally aus dem Weg räumen.,Esas barras parecen peligrosas. \nTengo que deshacerme de ellas.
+2-02_02_F02,It's a relief \nshe didn't get hurt.,샐리가 다치지 \n않아서 다행이다.,莎莉没有受伤\n真是万幸。,莎莉沒有受傷\n真是萬幸。,"Es beruhigt mich,\ndass sie nicht verletzt wurde.","Es un alivio, \nno se ha hecho daño."
+,,,,,,
+//2-03_03,,,,,,
+2-03_03_S01,I don't think I've stopped running \nsince leaving home on my own.,혼자 고향을 떠난 뒤로 \n그동안 쉬지 않고 달려온 것 같아.,独自离乡后\n从来没有休息过。,獨自離鄉後\n從來沒有休息過。,"Ich glaube, ich bin nur am Rennen,\nseit ich alleine mein Zuhause verlassen habe.",Desde que salí de casa \nno he dejado de correr.
+2-03_03_S02,"Everyday, \nI’ve struggled \nto keep up with reality.",매일 현실에 쫓기며 살았지.,每天都活在残酷的现实中。,每天都活在殘酷的現實中。,"Jeden Tag\nhabe ich darum gekämpft,\nmit der Realität Schritt zu halten.",Cada día \nhe luchado por \nseguir adelante.
+2-03_03_S03,Maybe I wasn't as considerate \nof Father as I should have been.,아빠를 생각해본 적이 \n너무 없었던 건 아닐까.,关于父亲则是\n想念甚少。,關於父親則是\n想念甚少。,Wahrscheinlich war ich Vater gegenüber\nnicht rücksichtsvoll genug.,Tal vez debería haber sido más \nconsiderada con papá.
+2-03_03_F01,My heart ached after Sally left.,떠난 딸을 생각하면 \n마음 한구석이 아파오곤 했다.,想起离开的女儿\n心中不禁一阵伤痛。,想起離開的女兒\n心中不禁一陣傷痛。,"Mein Herz schmerzte, \nnachdem Sally gegangen war.",Caí en la tristeza tras la marcha de Sally.
+2-03_03_F02,"I trusted she would be well and tried not to dwell on it,",잘 하고 있을거라 믿고 \n되도록 떠올리려 하지 않았지만,相信她一定过得很好\n不刻意去想她,相信她一定過得很好\n不刻意去想她,"Ich vertraute darauf, \ndass es ihr gut gehen würde, und versuchte,\nnicht weiter daran zu denken,","Pensaba en que ella estaría bien e intenté no obsesionarme,"
+2-03_03_F03,but there wasn't a single day that I didn't worry for her.,한순간도 아이를 \n잊은적이 없었다. ,但是从来没有\n忘记过她。,但是從來沒有\n忘記過她。,"doch es verging kein Tag, \nan dem ich mich nicht um sie sorgte.",pero no pasó un solo día en el que no pensara en ella.
+,,,,,,
+//2-04_01,,,,,,
+2-04_01_S01,"Father, who was always too busy.",매일 바쁘던 아빠.,每日繁忙的父亲。,每日繁忙的父親。,Vater war immer zu beschäftigt.,"Papá, tú siempre tan ocupado..."
+2-04_01_S02,I can't remember \nif we ever went for a walk \nafter I turned ten.,열 살 무렵에는 함께 \n산책했던 기억조차 나지 않아.,从十岁之后\n就没有一起散步的记忆。,從十歲之後\n就沒有一起散步的記憶。,"Ich kann mich nicht erinnern,\nob wir je spazieren waren,\nnachdem ich zehn wurde.",No me acuerdo \nsi salimos a pasear \ndespués de cumplir 10 años.
+2-04_01_F01,Sally was a delicate child.,샐리는 \n가냘픈 아이였다.,莎莉是个\n很弱小的孩子。,莎莉是個\n很弱小的孩子。,Sally war ein empfindliches Kind.,Sally era una niña muy frágil.
+2-04_01_F02,"I was always afraid she'd get hurt, \nsince she was around ten.",열 살 무렵엔 다칠까봐 \n항상 조마조마했다.,十岁的年级\n总是很担心她受伤。,十歲的年級\n總是很擔心她受傷。,"Seit sie etwa zehn war,\nhatte ich immer Angst, sie könnte sich wehtun.","Desde los 10 años, me preocupaba \nque le pasara algo malo."
+,,,,,,
+//2-05_01,,,,,,
+2-05_01_S01,I heard my mom passed away \nwhen I was three.,내가 세살 때 \n엄마가 돌아가셨다고 들었어.,我听说母亲是\n在我三岁的时候过世的。,我聽說母親是\n在我三歲的時候過世的。,"Ich erfuhr, \ndass meine Mutter gestorben war,\nals ich drei war.",Me enteré de que mi madre murió \ncuando yo tenía 3 años.
+2-05_01_S02,"After mom passed away, \ndad was busy.",엄마가 돌아가신 이후로 \n아빠는 바빴고,母亲走之后\n父亲一直很忙,母親走之後\n父親一直很忙,Nach Mutters Tod\nwar Vater immer beschäftigt.,"Cuando mamá murió, \npapá siempre estaba ocupado."
+2-05_01_S03,"When I was about ten, \nhe just kept getting busier and busier.",내가 열 살 무렵에는 \n너무나도 바빠지셨지.,在我十岁的时候\n父亲变的非常的忙碌。,在我十歲的時候\n父親變的非常的忙碌。,"Als ich etwa zehn war,\nwurde er immer beschäftigter.","Cuando cumplí 10 años, \nestaba cada vez más ocupado."
+2-05_01_F01,Sally had gotten hurt \nfrom falling once.,샐리가 높은 곳에서 떨어져 \n다친 적이 있었다.,莎莉从高处跌落\n受伤过一次。,莎莉從高處跌落\n受傷過一次。,Sally war einmal gestürzt\nund hatte sich verletzt.,Sally se hizo daño una vez \nque se cayó.
+2-05_01_F02,My heart sank.,심장이 \n떨어지는 줄 알았는데,感觉心脏\n都要掉出来了。,感覺心臟\n都要掉出來了。,Mein Herz wurde schwer.,Me dio un vuelco el corazón.
+2-05_01_F03,But she didn't cry \nand got straight back up.,어쩜 그 연약한 아이가 \n울지도 않고 씩씩하게 일어나던지.,那么柔弱的孩子\n一声也没有哭的站了起来。,那麽柔弱的孩子\n一聲也沒有哭的站了起來。,Aber sie weinte nicht\nund stand sofort wieder auf.,Pero no lloró \ny se puso de pie ella sola.
+,,,,,,
+//2-05_03,,,,,,
+2-05_03_S01,"Of course when I think about it now, \nI understand why dad was so busy.",생각해보면 아빠가 바빴던건 \n당연했을지도 몰라.,回想起来其实\n父亲忙碌也是应该的。,回想起來其實\n父親忙碌也是應該的。,"Wenn ich heute darüber nachdenke,\nverstehe ich natürlich, \nwarum Vater nie Zeit hatte.",Ahora lo pienso y en realidad \nentiendo que papá estuviera tan ocupado.
+2-05_03_S02,"But I was so young, \nand when I fell by myself I was hurt.",하지만 혼자 넘어졌을 때 \n어린 마음에 너무 서운했었어.,但是独自摔倒时\n心里还是很伤心。,但是獨自摔倒時\n心裏還是很傷心。,"Aber ich war so jung,\nund als ich alleine hinfiel, tat ich mir weh.",Pero yo era muy pequeña... \ny cuando me caí me hice mucho daño.
+2-05_03_S03,I despised dad for always \nsaying he was busy.,바쁘다고 핑계만 대는 \n아빠가 참 미웠어.,很讨厌当时那个\n只会说自己忙碌的父亲。,很討厭當時那個\n只會說自己忙碌的父親。,"Ich hasste Vater dafür,\ndass er ständig sagte, er habe zu tun.","Despreciaba a papá, \nsiempre estaba tan ocupado..."
+2-05_03_F01,Sally got right back up.,샐리가 씩씩하게 \n잘 일어나기는 했지만,莎莉虽然坚强的\n站了起来,莎莉雖然堅強的\n站了起來,Sally stand sofort wieder auf.,Sally se levantó.
+2-05_03_F02,"But if I hadn't helped her, \nshe would've gotten more hurt.",내 보살핌이 없었다면 \n샐리는 더 많이 다쳤을 거다.,如果没有我的照顾\n莎莉可能更容易受伤。,如果沒有我的照顧\n莎莉可能更容易受傷。,Aber ohne meine Hilfe\nhätte sie sich schlimmer wehgetan.,"Si no la hubiera socorrido, \nse habría hecho aún más daño."
+2-05_03_F03,She was a very delicate child.,작은 나무 가시에도 \n상처 입는 연약한 아이였으니까.,就连小小的刺\n也会被扎到受伤。,就連小小的刺\n也會被紮到受傷。,Sie war ein sehr empfindliches Kind.,Era una niña muy frágil.
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+Chpt3_Title,<A Dream>,<꿈>,<梦>,<夢>,<Ein Traum>,<El sueño>
+,,,,,,
+//3-01_01,,,,,,
+Title3-1,A Dream,꿈,梦,夢,Ein Traum,El sueño
+3-01_01_S01,Sally had a dream.,샐리에겐 언젠가부터 \n꿈이 생겼어요.,莎莉不知从何时开始\n有了自己的梦想。,莎莉不知從何時開始\n有了自己的夢想。,Sally hatte einen Traum.,Sally tenía un sueño.
+3-01_01_S02,She wanted to become \na famous novelist.,그녀는 멋진 작가가\n되고 싶었답니다.,他想成为一名\n帅气的作家。,他想成為一名\n帥氣的作家。,Sie wollte eine berühmte\nSchriftstellerin werden.,Quería convertirse en \nuna escritora famosa.
+3-01_01_S03,She excitedly told her father \nabout her dream.,샐리는 들뜬 기분으로 \n아빠에게 꿈을 말했어요.,莎莉很兴奋的\n告诉父亲她的梦想。,莎莉很興奮的\n告訴父親她的夢想。,Aufgeregt erzählte sie ihrem Vater\nvon ihrem Traum.,Se lo contó a su padre \ncon gran emoción.
+3-01_01_S04,He disapproved.,하지만 아빠는 \n크게 반대했답니다.,但是父亲\n极度反对。,但是父親\n極度反對。,Er war dagegen.,A él no le gustó la idea.
+3-01_01_F01,Sally told him she wanted \nto become a novelist.,샐리가 작가가 \n되겠다고 말했어요. ,莎莉表达说\n自己一定会成为作家。,莎莉表達說\n自己一定會成為作家。,"Sally sagte ihm, dass sie\nSchriftstellerin werden wollte.",Sally le contó que quería \nser novelista.
+3-01_01_F02,He worried that meant she would \nmove to the city by herself.,그보다 더 걱정인 건 혼자서 \n도시로 가겠다는 말이었어요. ,更令人担心的是\n她要独自一人去城市里。,更令人擔心的是\n她要獨自一人去城市裏。,"Er war besorgt, weil sie dafür\nganz allein in die Stadt ziehen musste.",Le preocupaba que tuviera que \nirse a la ciudad sola.
+3-01_01_F03,It was \ntoo dangerous for her.,아빠는 샐리 혼자 도시에 사는 게 \n위험하다고 생각했어요.,父亲认为莎莉一个人在城市里\n很危险。,父親認為莎莉一個人在城市裏\n很危險。,Das war\nviel zu gefährlich für sie.,Era demasiado \npeligroso para ella.
+3-01_01_F04,He had no choice except \n to say no to her sweet face.,그는 들뜬 얼굴로 말하는 \n샐리의 꿈을 반대할 수밖에 없었어요.,所以只好反对\n莎莉的梦想。,所以只好反對\n莎莉的夢想。,"Er hatte keine Wahl, er musste\neinfach Nein sagen.","No tenía elección, \ntenía que decirle que no."
+,,,,,,
+//3-01_02,,,,,,
+3-01_02_S01,Sally was so frustrated that \nshe ran out of the house \nand went for a walk.,샐리는 답답한 마음에 \n집에서 뛰쳐나와 혼자 걸었습니다.,莎莉郁闷的\n从家里跑出去独自走着。,莎莉郁悶的\n從家裏跑出去獨自走著。,"Sally war so wütend,\ndass sie aus dem Haus rannte\nund einen Spaziergang machte.",Sally estaba tan frustrada \nque se fue de casa \ny se fue a dar una vuelta.
+3-01_02_S02,Getting some fresh air \nhelped her calm down.,산책을 하는 샐리의 표정이 \n한결 나아졌어요.,散步之后莎莉的心情\n变得好了许多。,散步之後莎莉的心情\n變得好了許多。,"Die frische Luft half ihr,\nsich zu beruhigen.",El aire fresco \nla ayudó a calmarse.
+3-01_02_F01,Father went after Sally.,아빠는 집에서 \n뛰쳐나간 샐리를 뒤쫓았지만,父亲从家里\n追了出去,父親從家裏\n追了出去,Der Vater lief Sally hinterher.,Papá fue a buscar a Sally.
+3-01_02_F02,But he kept his distance \nsince she was angry.,화가 난 딸에게 \n섣불리 다가갈 수 없었어요.,但是却无法靠近\n生气的孩子。,但是卻無法靠近\n生氣的孩子。,"Aber er blieb auf Abstand,\nweil sie wütend war.","Pero mantuvo las distancias, \nella estaba muy enfadada."
+3-01_02_F03,He watched over her \nfrom afar.,아빠는 이렇게나마 \n아이를 챙겨주었어요.,父亲只是这样\n默默地守护着孩子。,父親只是這樣\n默默地守護著孩子。,Er wachte aus der\nFerne über sie.,La observaba \nen la lejanía.
+,,,,,,
+//3-02_01,,,,,,
+3-02_01_S01,I reached the town.,작은 마을에 도착했어.,到达了村庄。,到達了村莊。,Ich bin in der Stadt.,Por fin llegué al pueblo.
+3-02_01_S02,It feels like \nI can breathe again.,이제 숨통이 좀 \n트이는 것 같아.,现在好像可以\n喘过一口气。,現在好像可以\n喘過一口氣。,"Es fühlt sich an,\nals könnte ich wieder atmen.",Es como si pudiera \nrespirar de nuevo.
+3-02_01_S03,"The smell of dirt hangs in the air, \na dry, familiar breeze.",바람에서 모래 냄새가 나. \n건조하고…익숙한 바람. ,空气里弥漫着沙子的气息\n干燥有熟悉的气息。,空氣裏彌漫著沙子的氣息\n幹燥有熟悉的氣息。,"In der Luft liegt der Geruch nach Schmutz,\neine trockene, vertraute Brise.","El aroma de la hierba en el aire, \nuna brisa tan familiar..."
+3-02_01_F01,Sally made it to the village.,샐리가 \n작은 마을에 도착했다.,莎莉\n到达了小村庄。,莎莉\n到達了小村莊。,Sally gelangte ins Dorf.,Sally ha llegado a la aldea.
+3-02_01_F02,I see the small \nwooden buildings.,이제 나무로 된 \n아늑한 건물들이 보인다.,现在可以见到\n用木头盖的小房子。,現在可以見到\n用木頭蓋的小房子。,"Ich sehe die kleinen,\nhölzernen Gebäude.",Veo los edificios pequeños \nde madera.
+3-02_01_F03,The wide open space \nmakes me feel alive again.,시야가 탁 트여서 \n이제야 좀 살 것 같다.,现在总算\n视野更加开阔了。,現在總算\n視野更加開闊了。,Die offene Weite gibt mir\nwieder ein Gefühl von Leben.,El espacio abierto \nhace que me sienta vivo.
+,,,,,,
+//3-02_02,,,,,,
+3-02_02_S01,My steps feel lighter \nthe closer I get to home.,고향에 가까워질 수록 \n발걸음도 가벼워지는 것 같아.,越接近家乡\n脚步越轻盈,越接近家鄉\n腳步越輕盈,"Meine Schritte werden leichter,\nje näher ich meinem Zuhause komme.",Mis pasos son más ligeros \ncuanto más me acerco a casa.
+,,,,,,
+//3-04_01,,,,,,
+3-04_01_S01,"Father, who always \nstopped me from dreaming.",내 꿈을 막아서던 아빠.,反对我的梦想的父亲。,反對我的夢想的父親。,Vater wollte mich immer vom\nTräumen abhalten.,Papá no quería \nque tuviera sueños.
+3-04_01_S02,He didn't want me to become a writer \nbecause it meant going to the city.,아빠는 내가 작가가 되기 위해 \n도시로 가는 걸 반대했었지.,父亲反对我为了当作家\n离开家去城市。,父親反對我為了當作家\n離開家去城市。,"Er war gegen meinen Schriftstellertraum,\nweil ich dafür in die Stadt ziehen musste.","No quería que me hiciera escritora, \nasí no me iría a la ciudad."
+3-04_01_F01,I couldn't stop worrying about Sally. \nShe was just such as weak girl.,샐리는 한시도 눈을 뗄 수 없었던 \n여린 아이였다. ,莎莉总是那个\n柔弱的小孩。,莎莉總是那個\n柔弱的小孩。,Ich habe mich ständig um Sally gesorgt.\nSie war doch so schwach.,No podía dejar de preocuparme por Sally. \nEra una niña tan delicada.
+3-04_01_F02,She was just too frail \nto live in the city alone.,도시에서 혼자 살기엔 \n무리라고 생각했다.,一个人在城市生活\n对她非常的艰辛。,一個人在城市生活\n對她非常的艱辛。,"Sie war zu zart,\num allein in der Stadt zu leben.",Era demasiado frágil \npara vivir sola en la ciudad.
+,,,,,,
+//3-05_01,,,,,,
+3-05_01_S01,"After mom \npassed away,",아빠는 엄마가 \n돌아가신 이후로 ,父亲在母亲过世之后,父親在母親過世之後,Nach Mutters Tod,"Tras la muerte \nde mamá,"
+3-05_01_S02,Father must have worried \nabout me even more.,내게 신경이\n많이 쓰였을 거야.,更加的用心在我身上。,更加的用心在我身上。,machte sich Vater wohl noch\ngrößere Sorgen um mich.,papá estaría aún \nmás preocupado por mí.
+3-05_01_S03,It's only natural that he \ndidn't approve of me leaving.,나의 상경을 반대한 건 \n어쩌면 당연했을지도 몰라.,反对我去城市\n也是理所当然的。,反對我去城市\n也是理所當然的。,"Natürlich wollte er nicht,\ndass ich ihn verlasse.",Es normal que no \nme dejara irme a la ciudad.
+3-05_01_F01,"After my wife \npassed away,",아내가 떠난 이후로,妻子过世之后,妻子過世之後,Nach dem Tod\nmeiner Frau,"Tras la muerte \nde mi esposa,"
+3-05_01_F02,I was probably \noverly concerned for Sally.,내가 너무 지나치게  \n샐리를 걱정했던 걸지도 모른다.,超乎寻常的\n担心着莎莉。,超乎尋常的\n擔心著莎莉。,war ich wahrscheinlich\nübermäßig besorgt um Sally.,es posible que \ncontrolara demasiado a Sally.
+3-05_01_F03,She was a brave girl...,저렇게 씩씩한 아이인데…,她是那么的坚强…,她是那麽的堅強…,Sie war ein tapferes Mädchen ...,Era una chica muy valiente...
+3-05_01_F04,Maybe I didn't trust her \nas much as I should have.,샐리를 너무 \n못 믿었던게 아닐까.,是不是太不相信\n莎莉了呢,是不是太不相信\n莎莉了呢,Vielleicht hätte ich ihr\nmehr vertrauen sollen.,Debería haber confiado \nmás en ella.
+,,,,,,
+//3-05_03,,,,,,
+3-05_03_S01,How could he not support \nthe dream of his only daughter?,아무리 그래도 하나 뿐인  \n딸의 꿈을 막아서다니.,再怎么样也是\n唯一的女儿的梦想。,再怎麽樣也是\n唯一的女兒的夢想。,Wie konnte er den Traum seiner\neinzigen Tochter nicht unterstützen?,¿Por qué no podía \napoyar el sueño de su única hija?
+3-05_03_S02,I was really hurt.,그 땐 너무나도  \n서운했었어.,那时候真的\n非常的伤心。,那時候真的\n非常的傷心。,Ich war wirklich verletzt.,Hirió mis sentimientos.
+3-05_03_F01,"At the time, it seemed like \nthe right thing to do.",그렇지만 당시에는 \n그게 옳다고 생각했었다.,但当时还是觉得\n做得没有错。,但當時還是覺得\n做得沒有錯。,Zu der Zeit schien es das\neinzig Richtige zu sein.,"En ese momento, me pareció \nque era lo correcto."
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+Chpt4_Title,<Farewell>,<이별>,<离别>,<離別>,<Abschied>,<Adiós>
+,,,,,,
+//4-01_01,,,,,,
+Title4-1,Farewell,이별,离别,離別,Abschied,Adiós
+4-01_01_S01,Sally decided to leave home \nand move to the city.,샐리는 고향을 떠나 \n도시로 가기로 했어요.,莎莉决定离开故乡\n去往城市。,莎莉決定離開故鄉\n去往城市。,"Sally beschloss, ihr Heim zu verlassen\nund in die Stadt zu ziehen.",Sally decidió marcharse \na la ciudad.
+4-01_01_S02,She told her Father.,떠나기 전 샐리는 \n아빠에게 말했어요.,离开之前\n和父亲道别了。,離開之前\n和父親道別了。,Das sagte sie ihrem Vater.,Se lo dijo a Papá.
+4-01_01_S03,"He of course didn't \nwant her to leave,",여전히 아빠는 반대했지만,虽然父亲还是很反对,雖然父親還是很反對,"Natürlich wollte er nicht,\ndass sie fortging,","Por supuesto, \nél se negó"
+4-01_01_S04,so she left \nsecretly.,샐리는 몰래 \n집을 떠났답니다.,但莎莉偷偷的\n离开了家。,但莎莉偷偷的\n離開了家。,also ging sie heimlich.,así que ella \nse escapó.
+4-01_01_F01,"With a determined look \nin her eyes,",샐리가 도시로 \n떠날거라고,莎莉十分不开心的\n向父亲表达,莎莉十分不開心的\n向父親表達,Mit einem\nentschlossenen Blick,"Con determinación \nen sus ojos,"
+4-01_01_F02,Sally said she intended to \ngo to the city.,굳은 표정으로 \n아빠에게 얘기했어요.,自己会\n去往城市,自己會\n去往城市,"sagte Sally, dass sie beabsichtigte,\nin die Stadt zu gehen.",Sally dijo que quería \nirse a la ciudad.
+4-01_01_F03,"She left the first moment \nFather was gone,",아빠가 잠깐 자리를 비운 사이에 \n샐리는 떠났고,父亲离开的一小会\n莎莉走了,父親離開的一小會\n莎莉走了,"Sie ging sofort,\nals ihr Vater mal weg war,","En cuanto Papá salió, \nella se escapó."
+4-01_01_F04,and he immediately \nfollowed after her.,그는 황급히 \n샐리를 쫓아갔어요.,他慌张的\n追了出去。,他慌張的\n追了出去。,und gleich folgte er ihr.,Él la persiguió \nde inmediato.
+,,,,,,
+//4-01_02,,,,,,
+4-01_02_S01,Even dead ends \ncouldn't stop Sally.,막다른 길도 \n그녀를 막을 수는 없었어요.,无论什么\n也阻挡不了她。,無論什麽\n也阻擋不了她。,Selbst Rückschläge\nkonnten Sally nicht aufhalten.,"Nada podía parar a Sally, \nni un callejón sin salida."
+4-01_02_S02,It inspired and gave her hope that \nshe could make her dream come true.,곧 꿈을 이룰 수 있다는 \n기대감에 설레었죠.,满心的认为\n马上就会实现梦想。,滿心的認為\n馬上就會實現夢想。,"Ihren Traum wahr werden zu lassen,\ninspirierte sie und gab ihr Hoffnung.","El camino, tan duro, la inspiró y le dio esperanzas \nde que podría cumplir su sueño."
+4-01_02_S03,She felt like \nshe could do anything.,무엇이든 해낼 수 \n있을 것만 같았어요.,认为什么事情\n都可以做到。,認為什麽事情\n都可以做到。,"Sie fühlte sich,\nals könne sie alles erreichen.",Se sentía \nimparable.
+,,,,,,
+//4-01_03,,,,,,
+4-01_03_F01,"Father followed after Sally \nfor a long time,",아빠는 샐리를 \n끝까지 뒤쫓았지만,父亲虽然\n一路跟随,父親雖然\n一路跟隨,"Vater folgte Sally\nfür lange Zeit,","Papá siguió a Sally \ndurante mucho tiempo,"
+4-01_03_F02,but he couldn't stop her \nfrom chasing her dream.,꿈을 쫓아 떠나는 샐리를 \n막을 수는 없었답니다.,但是还是无法阻止\n追逐梦想的她。,但是還是無法阻止\n追逐夢想的她。,"doch er konnte sie nicht abhalten,\nihrem Traum nachzujagen.",pero no podía evitar \nque persiguiera su sueño.
+,,,,,,
+//4-02_01,,,,,,
+4-02_01_S01,This place is \nreally quiet.,한적한 시골 마을에 도착했어.,回到了悠闲的村庄。,回到了悠閑的村莊。,Hier ist es wirklich still.,Este lugar es \nmuy tranquilo.
+4-02_01_S02,I wonder if \nit rains a lot.,비가 많이 오는 곳이라,这里常常下雨,這裏常常下雨,"Ich frage mich,\nob es wohl viel regnet.",Me pregunto si \nlloverá mucho.
+4-02_01_S03,The land seems wet \nand smells like rain.,땅바닥은 축축하고 \n흙에선 비 냄새가 나.,泥土中充满了\n潮湿的雨的气息。,泥土中充滿了\n潮濕的雨的氣息。,Das Land wirkt feucht\nund riecht nach Regen.,La tierra está húmeda \ny huele a lluvia.
+4-02_01_S04,"I can see home from here, \nin the distance.",어느새 고향이 \n저 멀리 보여.,不知不觉\n已经能远远的看见故乡。,不知不覺\n已經能遠遠的看見故鄉。,Ich kann von hier aus in der Ferne\nmein Zuhause sehen.,"Puedo ver mi casa desde aquí, \na lo lejos."
+4-02_01_F01,Sally's footsteps echo through \nthe quiet village.,샐리의 발소리만이 \n조용한 마을을 울린다.,村庄寂静的\n仿佛能听见莎莉的脚步声。,村莊寂靜的\n仿佛能聽見莎莉的腳步聲。,Sallys Schritte hallen durch\ndas schweigende Dorf.,Las pisadas de Sally resuenan \nen la pequeña aldea.
+4-02_01_F02,"Everything is damp,","모든 것이 \n눅눅하지만,",虽然一切\n都是那么潮湿,雖然一切\n都是那麽潮濕,"Alles ist feucht hier,","Todo está empapado,"
+4-02_01_F03,but the smell of nature \nputs her at ease.,풀내음이 느껴져서 \n이내 마음이 놓인다.,但能够感觉到自然\n令人非常舒心。,但能夠感覺到自然\n令人非常舒心。,aber der Duft der Natur\nberuhigt sie.,pero el olor de la naturaleza \nla tranquilizaba.
+4-02_01_F04,"I can see home from here, \nin the distance.",어느새 고향이 \n저 멀리 보인다.,不知不觉\n已经能远远的看见故乡。,不知不覺\n已經能遠遠的看見故鄉。,Ich kann von hier aus in der Ferne\nmein Zuhause sehen.,"Puedo ver mi casa desde aquí, \na lo lejos."
+,,,,,,
+//4-04_01,,,,,,
+4-04_01_S01,"Father, who was \nagainst my dream.",내 꿈을 반대하던 아빠.,反对我的梦想的父亲。,反對我的夢想的父親。,"Vater, der sich\ngegen meinen Traum stellte.","Papá, que me impedía \ncumplir mi sueño."
+4-04_01_S02,Leaving him wasn't easy.,그다지 좋은 \n이별은 아니었어.,离别并不是\n那么美好。,離別並不是\n那麽美好。,"Ihn zu verlassen, war nicht leicht.",Fue tan difícil dejarlo...
+4-04_01_F01,A delicate child all alone.,혼자 지내기엔 여린 아이.,独自一人过还是太年轻。,獨自一人過還是太年輕。,"Ein verletzliches Kind, ganz allein.",Una chica frágil tan sola.
+4-04_01_F02,It was a sudden farewell.,너무 갑작스러운 \n이별이었다.,离别是那么的\n毫无预告。,離別是那麽的\n毫無預告。,Es war ein plötzlicher Abschied.,Fue un adiós repentino.
+,,,,,,
+//4-05_01,,,,,,
+4-05_01_S01,Maybe Father was right.,도시가 위험하다는 \n아빠의 말이 옳았을 수도 있어.,父亲认为城市危险\n并没有错。,父親認為城市危險\n並沒有錯。,Vielleicht hatte Vater recht.,Tal vez papá tuviera razón.
+4-05_01_S02,"The city is dangerous, \nand he worried about me.","도시는 복잡한 곳이었고, \n아빠는 그저 날 걱정했던 건데.",城市里很复杂，\n父亲只是担心我。,城市裏很復雜，\n父親只是擔心我。,Die Stadt ist gefährlich\nund er machte sich Sorgen um mich.,"La ciudad es peligrosa, \nsolo se preocupaba por mí."
+4-05_01_S03,He was just trying to hold \nonto his little girl.,아빠가 붙잡으려 한 것은 \n당연했을지도 몰라.,父亲挽留我\n也是理所当然的。,父親挽留我\n也是理所當然的。,"Er versuchte bloß,\nsein kleines Mädchen festzuhalten.",No quería perder \na su pequeña.
+4-05_01_F01,I couldn't stop Sally.,도시로 떠나려는 \n샐리를 막을 수 없었다.,无法阻止\n想要离开家乡的莎莉。,無法阻止\n想要離開家鄉的莎莉。,Ich konnte Sally nicht aufhalten.,No pude detener a Sally.
+4-05_01_F02,"All she wanted was \nto become a writer, \nand she can't do it here.",샐리는 다양한 경험을 위해 \n새로운 곳에 가보고 싶어했을 뿐인데.,莎莉只是希望能够\n多多体验新事物,莎莉只是希望能夠\n多多體驗新事物,"Alles, was sie wollte,\nwar, Schriftstellerin zu sein,\nund das kann sie hier nicht.","Ser escritora es todo \nlo que ella deseaba, \ny no podía serlo aquí."
+4-05_01_F03,She was following \nher heart.,샐리가 이 지루한 마을을 떠나려 했던 것은 \n당연했을지도 모른다.,莎莉希望离开这无聊的村庄\n也是理所当然的。,莎莉希望離開這無聊的村莊\n也是理所當然的。,Sie folgte nur ihrem Herzen.,Seguía a su \ncorazón.
+,,,,,,
+//4-05_03,,,,,,
+4-05_03_S01,I wanted to make \nmy dream a reality.,하지만 그때의 난 \n꿈을 이루고 싶었어.,那时的我\n只想实现梦想。,那時的我\n只想實現夢想。,Ich wollte meinen Traum\nWirklichkeit werden lassen.,Quería cumplir \nmi sueño.
+4-05_03_S02,It wasn't easy.,내게도 쉬운 결정이 \n아니었던 만큼,对我来说\n是个困难的决定,對我來說\n是個困難的決定,Es war nicht leicht.,No fue fácil.
+4-05_03_S03,I wished Father \nunderstood my decision.,아빠도 그걸 \n이해해주길 바랐었지.,同时我也希望\n能够得到父亲的理解。,同時我也希望\n能夠得到父親的理解。,"Ich wünschte, Vater würde\nmeine Entscheidung verstehen.",Quería que papá \nentendiera mi decisión.
+4-05_03_F01,Sally left.,하지만 샐리는 \n떠나고 말았다.,但莎莉离开了。,但莎莉離開了。,Sally ist fort.,Sally se fue.
+4-05_03_F02,"I just wanted her to know,",내가 아이를 옆에서 \n지켜주고 싶었다는걸,我只是想在孩子身边\n守护着她,我只是想在孩子身邊\n守護著她,"Ich wollte nur, dass sie weiß,",Solo quería que supiera
+4-05_03_F03,I tried my best \nto protect her.,샐리도 \n이해해주길 바랐었다.,希望莎莉也能够\n理解我。,希望莎莉也能夠\n理解我。,"dass ich mein Bestes getan habe,\num sie zu beschützen.",que hice lo que pude \npara protegerla.
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+Chpt5_Title,<Reunion>,<재회>,<再会>,<再會>,<Wiedersehen>,<Reencuentro>
+,,,,,,
+//5-01_01,,,,,,
+Title5-1,Home,고향,故乡,故鄉,Zuhause,En casa
+5-01_01_S01,Home. \nI remember everything \nlike it was just yesterday.,고향이야. \n오래전의 일들이 마치 어제 일처럼 떠올라.,回到故乡了。\n不禁想起儿时的记忆。,回到故鄉了。\n不禁想起兒時的記憶。,"Zuhause.\nIch erinnere mich an alles,\nals wäre es gestern gewesen.",En casa. \nRecuerdo todo \ncomo si me hubiera ido ayer.
+5-01_01_S02,"Thinking about it, \nI was an extremely lucky girl.",생각해보면 \n나는 신기할 정도로 \n운이 좋은 아이였던 것 같아.,仔细回想\n我是那么神奇的\n一路好运着。,仔細回想\n我是那麽神奇的\n一路好運著。,"Wenn ich es recht bedenke,\nkonnte ich mich glücklich schätzen.",Ahora lo pienso y veo \nla suerte que tuve.
+5-01_01_F01,Home. \nSuddenly all of my memories with Sally \nare coming back so vividly.,고향이다. \n문득 샐리와 함께했던 \n기억들이 생생하게 떠오른다. ,回到故乡了。\n不禁想起与莎莉一起的时光。,回到故鄉了。\n不禁想起與莎莉一起的時光。,Zuhause.\nPlötzlich kommen alle meine Erinnerungen mit Sally\nso klar wieder ins Gedächtnis.,En casa. \nMis recuerdos con Sally \nempiezan a cobrar vida.
+5-01_01_F02,"Although she was very delicate, she was such a brave girl.",생각해보면 샐리는 연약하지만 \n참 씩씩한 아이였다.,仔细回想莎莉虽然柔弱\n但却一直很坚强。,仔細回想莎莉雖然柔弱\n但卻一直很堅強。,"Obwohl sie sehr verletzlich war, \nwar sie so tapfer.","Aunque era frágil, \nera una niña muy valiente."
+,,,,,,
+//5–01_02,,,,,,
+5-01_02_S01,Tap to jump.,탭하여 뛰세요.,点击跳跃,點擊跳躍,Zum Springen antippen.,Toca para saltar.
+5-01_02_S01_PC,{0} to jump.,{0} 를 눌러 뛰세요.,请按 {0},請按 {0},Zum Springen {0},{0}{0} para saltar.
+5-01_02_S02,Sally loved to read books \never since she was a child.,어렸을 때부터 샐리는 \n책 읽는 것을 참 좋아했어요.,莎莉从小就喜欢看书。,莎莉從小就喜歡看書。,Sally liebte es schon als Kind\nBücher zu lesen.,A Sally le encantaba leer \ndesde su niñez.
+5-01_02_S03,There was nobody to befriend \nin her small village.,어울릴 친구들이 없는 마을에서,在没有朋友的村庄里,在沒有朋友的村莊裏,In dem kleinen Dorf gab es\nkeine Kinder zum Anfreunden.,No había otros niños para jugar \nen su aldea.
+5-01_02_S04,"So, books were her \nonly companions.",책은 샐리의 \n단 하나뿐인 친구였답니다.,书是她\n仅有的朋友。,書是她\n僅有的朋友。,Also wurden die Bücher\nihre einzigen Kameraden.,Así que los libros eran \nsus leales compañeros.
+5-01_02_F01,He struggled after \nlosing his wife.,그는 아내를 잃고 \n많이 힘들어했어요.,他失去妻子后\n非常的难过。,他失去妻子後\n非常的難過。,Er kämpfte mit dem\nVerlust seiner Frau.,Sufrió mucho tras perder \na su mujer.
+5-01_02_F02,"Even though time had passed, \nhis sadness remained.",세월이 흘러도 아내를 잃은 상실감은 \n지워지지 않았습니다.,即使岁月流逝\n妻子的离去也无法抹去。,即使歲月流逝\n妻子的離去也無法抹去。,"Obwohl bereits viel Zeit vergangen war,\nblieb seine Traurigkeit.","Aunque los años pasaron, \nsu dolor permaneció en su corazón."
+5-01_02_F03,He could not bear \nto lose another loved one.,그는 더 이상 소중한 사람을 \n잃고 싶지 않았죠.,他不想再失去\n重要的人。,他不想再失去\n重要的人。,"Er hätte es nicht ertragen,\nnoch eine geliebte Person zu verlieren.",No podía permitirse \nperder a otra persona querida.
+5-01_02_F04,So his concern \nfor his daughter grew ever greater.,딸에 대한 그의 걱정은 \n점점 커져만 갔습니다.,他渐渐的开始\n对女儿感到担心。,他漸漸的開始\n對女兒感到擔心。,Daher wuchs die Sorge\num seine Tochter immer weiter.,Por lo que se preocupó \naún más por su hija.
+,,,,,,
+//5-01_03,,,,,,
+5-01_03_S01,Sally liked going on walks \nwith her father.,샐리는 아빠와의 \n산책도 좋아했어요.,莎莉喜欢与\n父亲一起散步。,莎莉喜歡與\n父親一起散步。,Sally ging gerne\nmit ihrem Vater spazieren.,A Sally le gustaba salir a pasear \ncon su padre.
+5-01_03_S02,"Although she didn't enjoy \nthe difficult ascents,",오르막길을 오를 때 \n흐르는 땀과,虽然上坡很累,雖然上坡很累,Obwohl sie weder\ndie schwierigen Aufstiege,"Aunque no le gustaban las \nsubidas difíciles,"
+5-01_03_S03,"nor the scary \nand steep descents,",내리막 길의 무서움은 \n썩 내키지 않았지만,虽然下坡很害怕,雖然下坡很害怕,"noch die beängstigenden,\nsteilen Abstiege mochte,","ni los descensos \npronunciados,"
+5-01_03_S04,walks were the only \nprecious times she could \nspend with her father.,아빠와 함께할 수 있는 시간이 \n매우 드물었기 때문입니다.,但跟父亲 \n在一起的时间不多。,但跟父親 \n在一起的時間不多。,"war dies für sie die einzige,\nkostbare Zeit gemeinsam\nmit ihrem Vater.",los paseos eran los \núnicos momentos que podía \npasar con su padre.
+5-01_03_F01,Father liked \nwalking with Sally.,아빠 역시 샐리와의 \n산책을 좋아했답니다.,父亲也喜欢 \n和莎莉一起散步。,父親也喜歡 \n和莎莉一起散步。,Der Vater ging gerne\nmit Sally spazieren.,A Papá le gustaba \npasear con Sally.
+5-01_03_F02,"However, he was always busy \nand couldn't spend much time \nwith her.",하지만 아빠는 늘 바빴어요.,但是父亲总是很忙。,但是父親總是很忙。,Leider war er immer beschäftigt\nund konnte nie viel Zeit mit ihr\nverbringen.,"Por desgracia, siempre estaba ocupado \ny no podía pasar mucho tiempo \ncon ella."
+5-01_03_F03,"He struggled to find time \nto spend with her,",샐리의 행복을 위해 \n 열심히 일 했지만,为了莎莉的幸福 \n努力的工作,為了莎莉的幸福 \n努力的工作,"Er bemühte sich,\nZeit für sie zu finden,","Intentaba buscar huecos \npara estar juntos,"
+5-01_03_F04,but it was \nextremely difficult.,정작 샐리를 위한 \n시간을 내기가 참 어려웠습니다.,但是却总是 \n没有时间陪着莎莉。,但是卻總是 \n沒有時間陪著莎莉。,aber es war\nsehr schwierig.,pero le era \nmuy complicado.
+,,,,,,
+//5-02_01,,,,,,
+5-02_01_S01,Sally wanted to go on a walk \nwith Father.,샐리는 아빠와 \n산책을 하고 싶었어요.,莎莉很像和父亲\n一起散步。,莎莉很像和父親\n一起散步。,Sally wollte gerne mit Vater\nspazieren gehen.,Sally quería ir de paseo \ncon Papá.
+5-02_01_S02,"However, \nhe had become much busier,",하지만 아빠는 더욱 바빠졌고,但父亲越来越忙,但父親越來越忙,"Allerdings\nwar er immer beschäftigter,","Pero \nestaba demasiado ocupado,"
+5-02_01_S03,and they gradually spent \nless and less time together.,샐리와 아빠가 이야기할 수 있는 \n시간은 점점 줄어들었어요.,莎莉可以与父亲说话的时间\n越来越少。,莎莉可以與父親說話的時間\n越來越少。,und nach und nach verbrachten sie\nimmer weniger Zeit miteinander.,y cada vez pasaban menos \ntiempo juntos.
+5-02_01_F01,He had to fulfill both parental roles \nin caring for Sally.,아빠는 아내를 대신해서 \n샐리를 돌봐야 했어요.,父亲要代替母亲\n照顾莎莉。,父親要代替母親\n照顧莎莉。,"Er musste die Rollen beider Eltern übernehmen,\num für Sally zu sorgen.",Debía cumplir su papel de padre \ny cuidar de Sally.
+5-02_01_F02,"However, \nhe also could not neglect his work.",하지만 가장으로써 \n일도 소홀히 할 수 없었죠.,但作为一家之长\n工作无法减少。,但作為一家之長\n工作無法減少。,Allerdings durfte er\nauch seine Arbeit nicht vernachlässigen.,Pero \ntampoco podía abandonar su trabajo.
+5-02_01_F03,He had no choice \nbut to spend less time with Sally.,때문에 함께 보내는 시간은 \n줄어들 수밖에 없었답니다.,所以在一起的时间\n越来越少。,所以在一起的時間\n越來越少。,"Ihm blieb keine Wahl,\nals weniger Zeit mit Sally zu verbringen.","No tenía elección, \ndebía pasar menos tiempo con Sally."
+,,,,,,
+//5-02_02,,,,,,
+5-02_02_S01,"Now that I think about it, \nI almost never got hurt \nwhen I was young.",생각해보면 나는 거의 \n다친 적이 없었어.,回想起来我从来\n没有受伤过。,回想起來我從來\n沒有受傷過。,"Wenn ich darüber nachdenke,\nhabe ich mir nie wehgetan,\nals ich klein war.","Ahora que lo pienso, \ncasi nunca me hice daño \nen mi niñez."
+5-02_02_S02,I was a \ntruly lucky girl.,나는 정말 운이 좋은 \n아이였던 것 같아.,我真的是一个\n幸运的孩子。,我真的是一個\n幸運的孩子。,Ich hatte wirklich\nimmer viel Glück.,Era una niña \nmuy afortunada.
+5-02_02_F01,The branches look sharp.,나무 가시들이 \n날카로워 보여요.,那些刺看起来\n非常尖利。,那些刺看起來\n非常尖利。,Die Zweige sehen spitz aus.,Las ramas parecen afiladas.
+5-02_02_F02,He cleared the branches \nto help Sally.,아빠가 샐리를 위해 \n나무 가시를 치워줬어요.,父亲为莎莉\n清除了刺。,父親為莎莉\n清除了刺。,"Er räumte die Zweige aus dem Weg,\num Sally zu helfen.",Despejó las ramas \npara ayudar a Sally.
+,,,,,,
+//5-02_03,,,,,,
+5-02_03_S01,Oh no! \nSally took a hard fall!,아이쿠! \n샐리가 높은 곳에서 떨어졌어요.,哎呀！\n莎莉从高处跌落。,哎呀！\n莎莉從高處跌落。,Oh nein!\nSally ist schlimm gestürzt!,"¡Oh, no! \n¡Sally se ha caído!"
+5-02_03_S02,Maybe luck doesn't follow her \neverywhere.,샐리도 매번 운이 따르는 \n아이는 아닌가봐요.,莎莉不是每次\n都是非常好运的吗。,莎莉不是每次\n都是非常好運的嗎。,Vielleicht ist sie doch nicht überall\nvom Glück verfolgt.,Tal vez la suerte no le sonría siempre.
+5-02_03_F01,Sally was never \nafraid of heights.,샐리는 좀처럼 \n높은 곳을 두려워하지 않았다.,莎莉不再害怕高处。,莎莉不再害怕高處。,Sally hatte nie\nHöhenangst.,A Sally nunca le dieron \nmiedo las alturas.
+5-02_03_F02,She was \nvery courageous.,샐리는 예전부터 \n참 씩씩한 아이였다.,莎莉从小就是一个\n坚强的孩子。,莎莉從小就是一個\n堅強的孩子。,Sie war sehr mutig.,Era tan valiente.
+,,,,,,
+//5-03_01,,,,,,
+5-03_01_S01,Sally had a dream.,샐리에겐 언젠가부터 \n꿈이 생겼어요.,莎莉不知从何时开始\n有了自己的梦想。,莎莉不知從何時開始\n有了自己的夢想。,Sally hatte einen Traum.,Sally tenía un sueño.
+5-03_01_S02,She wanted to become \na famous novelist.,그녀는 멋진 작가가\n되고 싶었답니다.,他想成为一名\n帅气的作家。,他想成為一名\n帥氣的作家。,Sie wollte eine berühmte\nSchriftstellerin werden.,Quería convertirse en \nuna escritora famosa.
+5-03_01_S03,She excitedly told her father \nabout her dream.,샐리는 들뜬 기분으로 \n아빠에게 꿈을 말했어요.,莎莉很兴奋的\n告诉父亲她的梦想。,莎莉很興奮的\n告訴父親她的夢想。,Aufgeregt erzählte sie ihrem Vater\nvon ihrem Traum.,Se lo contó a su padre \ncon gran emoción.
+5-03_01_S04,He disapproved.,하지만 아빠는 \n크게 반대했답니다.,但是父亲\n极度反对。,但是父親\n極度反對。,Er war dagegen.,A él no le gustó la idea.
+5-03_01_F01,Sally told him she wanted \nto become a novelist.,샐리가 작가가 \n되겠다고 말했어요. ,莎莉表达说\n自己一定会成为作家。,莎莉表達說\n自己一定會成為作家。,"Sally sagte ihm, dass sie\nSchriftstellerin werden wollte.",Sally le contó que quería \nser novelista.
+5-03_01_F02,He worried that meant she would \nmove to the city by herself.,그보다 더 걱정인 건 혼자서 \n도시로 가겠다는 말이었어요. ,更令人担心的是\n她要独自一人去城市里。,更令人擔心的是\n她要獨自一人去城市裏。,"Er war besorgt, weil sie dafür\nganz allein in die Stadt ziehen musste.",Le preocupaba que tuviera que \nirse a la ciudad sola.
+5-03_01_F03,It was \ntoo dangerous for her.,아빠는 샐리 혼자 도시에 사는 게 \n위험하다고 생각했어요.,父亲认为莎莉一个人在城市里\n很危险。,父親認為莎莉一個人在城市裏\n很危險。,Das war\nviel zu gefährlich für sie.,Era demasiado \npeligroso para ella.
+5-03_01_F04,He had no choice except \n to say no to her sweet face.,그는 들뜬 얼굴로 말하는 \n샐리의 꿈을 반대할 수밖에 없었어요.,所以只好反对\n莎莉的梦想。,所以只好反對\n莎莉的夢想。,"Er hatte keine Wahl, er musste\neinfach Nein sagen.","No tenía elección, \ntenía que decirle que no."
+,,,,,,
+//5-03_02,,,,,,
+5-03_02_S01,"Looking back, \nthere was nothing I couldn't do.",생각해보면 나는 무언가에 막혀서 \n멈춰선 기억도 없어.,回想起来我从来没有\n被什么东西阻挡过而停下来。,回想起來我從來沒有\n被什麽東西阻擋過而停下來。,"Rückblickend betrachtet,\ngab es nichts, das ich nicht tun konnte.",Pienso en el pasado \ny veo que hice todo lo que quise.
+5-03_02_S02,"For some reason, \nI was very lucky.",나는 정말 \n운이 좋은 아이였어.,我真的是个\n运气很好的孩子。,我真的是個\n運氣很好的孩子。,Aus irgendeinem Grund\nhatte ich extrem viel Glück.,"Por algún motivo, \nla suerte me sonreía."
+5-03_02_F01,Sally was never \nafraid of heights.,샐리는 높은 절벽도 \n좀처럼 두려워하지 않았다.,莎莉不害怕\n那么高的悬崖。,莎莉不害怕\n那麽高的懸崖。,Sally hatte nie\nHöhenangst.,A Sally nunca le dieron \nmiedo las alturas.
+5-03_02_F02,She was \nvery courageous.,샐리는 예전부터 \n참 씩씩한 아이였다.,莎莉从小就是一个\n坚强的孩子。,莎莉從小就是一個\n堅強的孩子。,Sie war sehr mutig.,Era tan valiente.
+,,,,,,
+//5-04_01,,,,,,
+5-04_01_S01,Sally decided to leave home \nand move to the city.,샐리는 고향을 떠나 \n도시로 가기로 했어요.,莎莉决定离开故乡\n去往城市。,莎莉決定離開故鄉\n去往城市。,"Sally beschloss, ihr Heim zu verlassen\nund in die Stadt zu ziehen.",Sally decidió marcharse \na la ciudad.
+5-04_01_S02,She told her Father.,떠나기 전 샐리는 \n아빠에게 말했어요.,离开之前\n和父亲道别了。,離開之前\n和父親道別了。,Das sagte sie ihrem Vater.,Se lo dijo a Papá.
+5-04_01_S03,"He of course didn't \nwant her to leave,",여전히 아빠는 반대했지만,虽然父亲还是很反对,雖然父親還是很反對,"Natürlich wollte er nicht,\ndass sie fortging,","Por supuesto, \nél se negó"
+5-04_01_S04,so she left \nsecretly.,샐리는 몰래 \n집을 떠났답니다.,但莎莉偷偷的\n离开了家。,但莎莉偷偷的\n離開了家。,also ging sie\nheimlich.,así que ella \nse escapó.
+5-04_01_F01,"With a determined look \nin her eyes,",샐리가 도시로 \n떠날거라고,莎莉十分不开心的\n向父亲表达,莎莉十分不開心的\n向父親表達,Mit einem\nentschlossenen Blick,"Con determinación \nen sus ojos,"
+5-04_01_F02,Sally said she intended to \ngo to the city.,굳은 표정으로 \n아빠에게 얘기했어요.,自己会\n去往城市,自己會\n去往城市,"sagte Sally, dass sie beabsichtigte,\nin die Stadt zu gehen.",Sally dijo que quería \nirse a la ciudad.
+5-04_01_F03,"She left the first moment \nFather was gone,",아빠가 잠깐 자리를 비운 사이에 \n샐리는 떠났고,父亲离开的一小会\n莎莉走了,父親離開的一小會\n莎莉走了,"Sie ging sofort,\nals ihr Vater mal weg war,","En cuanto Papá salió, \nella se escapó."
+5-04_01_F04,and he immediately \nfollowed after her.,그는 황급히 \n샐리를 쫓아갔어요.,他慌张的\n追了出去。,他慌張的\n追了出去。,und gleich\nfolgte er ihr.,Él la persiguió \nde inmediato.
+,,,,,,
+//5-04_02,,,,,,
+5-04_02_S01,"Looking back, \nnothing could hurt or stop me \nwhen I was young..","생각해보면 지금까지 나는 크게 다친적도, \n그 무엇에 방해받은 적도 없었어.",回想起来我从来都没有受伤过，\n也从来没有什么阻挡我,回想起來我從來都沒有受傷過，\n也從來沒有什麽阻擋我,"Rückblickend konnte mich\nnichts verletzen oder aufhalten,\nals ich jung war.",Pienso en mi niñez \ny veo que nada podía hacerme daño \nni detenerme...
+5-04_02_S02,I was very lucky....,나는 정말 운이 좋은…,我真的是好运的…,我真的是好運的…,Ich hatte sehr viel Glück ...,Qué suerte tenía...
+5-04_02_S03,Sally became lost in thought.,샐리는 \n깊은 생각에 빠졌어요.,莎莉陷入了沉思。,莎莉陷入了沈思。,Sally war tief in Gedanken versunken.,Sally se perdió en sus pensamientos.
+5-04_02_F01,Sally never hesitated \neven if she ran into a dead end.,샐리는 막다른 길 앞에서도 \n주저앉지 않았다.,莎莉在完全不同的路上\n也从来没有犹豫过。,莎莉在完全不同的路上\n也從來沒有猶豫過。,"Sally zögerte niemals,\nselbst, wenn sie einmal scheiterte.","Sally nunca se detuvo, \nni siquiera en callejones sin salida."
+5-04_02_F02,Sally was very courageous...,샐리는 정말 씩씩한…,莎莉真的很坚强….,莎莉真的很堅強….,Sally war sehr mutig ...,Era tan valiente...
+5-04_02_F03,Father became lost in thought.,아빠는 \n깊은 생각에 빠졌어요.,父亲陷入了沉思。,父親陷入了沈思。,Vater war tief in Gedanken versunken.,Papá se perdió en sus pensamientos.
+,,,,,,
+//5-05_04,,,,,,
+5-05_04_S01,I can see home \nfrom here.,저 멀리 집이 보여.,看到了远方的家。,看到了遠方的家。,Ich kann von hier\nmein Zuhause sehen.,Puedo ver mi casa \ndesde aquí.
+5-05_04_S02,I'll be \nwith Father soon.,곧 아빠를 만날 수 있어.,马上就可以见到父亲了。,馬上就可以見到父親了。,Bald bin ich wieder\nbei Vater.,Pronto estaré \ncon papá.
+5-05_04_F01,I can see home \nfrom here.,저 멀리 집이 보인다.,看到远方的家了。,看到遠方的家了。,Ich kann von hier\nmein Zuhause sehen.,Puedo ver mi casa \ndesde aquí.
+5-05_04_F02,I'll be \nwith Sally soon.,곧 샐리를 만날 수 있다.,马上就可以见到莎莉了。,馬上就可以見到莎莉了。,Bald bin ich wieder\nbei Sally.,Pronto estaré \ncon Sally.
+,,,,,,
+//5-06_01,,,,,,
+Title5-6,Reunion,재회,再会,再會,Wiedersehen,Reencuentro
+5-06_01_S01,Maybe I knew it \nin the bottom of my heart.,마음 깊은 곳에서는 \n이미 알고 있었을지도 몰라.,或许在心灵深处\n已经感受到。,或許在心靈深處\n已經感受到。,Vielleicht habe ich es\nin meinem Herzen immer gewusst.,Tal vez ya lo supiera \nen el fondo de mi corazón.
+5-06_01_F01,Maybe I knew it \nin the bottom of my heart.,마음 깊은 곳에서는 \n이미 알고 있었을지도 모른다.,或许在心灵深处\n已经感应到。,或許在心靈深處\n已經感應到。,Vielleicht habe ich es\nin meinem Herzen immer gewusst.,Tal vez ya lo supiera \nen el fondo de mi corazón.
+,,,,,,
+//5-06_02,,,,,,
+5-06_02_S01,I hadn't had time \nto think about Father \nsince leaving home.,성인이 된 이후로는 \n아빠를 제대로 추억해 볼 기회가 없었어.,长大成人之后\n从没有特别去回忆过父亲。,長大成人之後\n從沒有特別去回憶過父親。,"Seit ich von daheim fort war,\nhatte ich nie Zeit,\nüber Vater nachzudenken.",No tuve tiempo \npara pensar en papá \ndesde que me marché.
+5-06_02_F01,Sally isn't \na little girl anymore.,샐리는 더 이상 \n작은 소녀가 아니었다.,莎莉在也不是\n那个小小的女孩。,莎莉在也不是\n那個小小的女孩。,Sally ist\nkein kleines Mädchen mehr.,Sally ya no \nes una niña pequeña.
+,,,,,,
+//5-06_03,,,,,,
+5-06_03_S01,I can understand \nFather now.,이제는 아빠를 \n이해할 수 있어.,现在可以理解父亲。,現在可以理解父親。,Jetzt kann ich\nVater verstehen.,Ahora entiendo a papá.
+5-06_03_S02,I miss him.,아빠가 너무 \n보고 싶어.,很想念父亲。,很想念父親。,Ich vermisse ihn.,Lo echo de menos.
+5-06_03_S03,I want to go on a walk with him.,아빠와 함께 걷고 싶어.,很想与父亲一起散步。,很想與父親一起散步。,Ich möchte mit ihm spazieren gehen.,Quiero ir de paseo con él.
+5-06_03_S04,I want to hug him.,아빠를 꼭 안고 싶어.,很想紧紧抱着父亲。,很想緊緊抱著父親。,Ich möchte ihn umarmen.,Quiero abrazarlo.
+5-06_03_F01,I understand \nSally now.,이제는 아이를 \n이해할 수 있다.,现在可以理解孩子了。,現在可以理解孩子了。,Jetzt kann ich\nSally verstehen.,Ahora entiendo a Sally.
+5-06_03_F02,I want to see her \nface to face.,샐리를 \n두눈으로 보고싶다.,现在想见到我的莎莉。,現在想見到我的莎莉。,"Ich möchte sie sehen,\nvon Angesicht zu Angesicht.",Quiero tenerla \nfrente a mí.
+5-06_03_F03,I want to go on a walk with her.,아이와 함께 걷고 싶다.,很想与孩子一起散步。,很想與孩子一起散步。,Ich möchte mit ihr spazieren gehen.,Quiero ir de paseo con ella.
+5-06_03_F04,I want to give her a hug.,아이를 꼭 안고 싶다.,很想紧紧抱着孩子。,很想緊緊抱著孩子。,Ich möchte sie umarmen.,Quiero abrazarla.
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+//////CREDIT,,,,,,
+,,,,,,
+Credit_Prof,"Executive Producer\n\n\nGame Design, Programming\n\n\nStory\n\n\n\n\nArt\n\n\nAnimation\n\n\n\nLevel Design\n\n\nProgramming Support\n\n\nMarketing & Support\n\n\n\nSound Design\n\n\nLocalization\n\n\n\n\nMusic\n\n\n\n\n\n\n\n\n\n\n\n\nDistributed by\n\nⓒ2016 Nanali Inc. \nSally’s Lawⓡ is a registered trademark of Nanali Inc. All rights resereved.","제작총괄\n\n\n기획, 프로그래밍\n\n\n스토리\n\n\n\n\n아트\n\n\n애니메이션\n\n\n\n레벨디자인\n\n\n프로그래밍 서포트\n\n\n마케팅 & 서포트\n\n\n\n사운드 디자인\n\n\n음악\n\n\n\n\n\n\n\n\n\n\n\n\n번역\n\n\n\n\n고마운 분들\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n제작\n\nⓒ2016 Nanali Inc. \n샐리의법칙ⓡ is a registered trademark of Nanali Inc. All rights resereved.",,,,"Executive Producer\n\n\nGame Design, Programming\n\n\nStory\n\n\n\n\nArt\n\n\nAnimation\n\n\n\nLevel Design\n\n\nProgramming Support\n\n\nMarketing & Support\n\n\n\nSound Design\n\n\nMusic\n\n\n\n\n\n\n\n\n\n\n\n\nLocalization\n\n\n\n\nSpecial Thanks to\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistributed by\n\nⓒ2016 Nanali Inc. All rights resereved."
+Credit_Name,\n[b]JaeHwan Bak[/b]\n\n\n[b]Uros Han[/b]\n\n\n[b]Uros Han\nJaeHwan Bak\nJun K[/b]\n\n\n[b]Sangji Seo[/b]\n\n\n[b]Dongook Lee\nWanggul Kim[/b]\n\n\n[b]Jaesoon Jung[/b]\n\n\n[b]Minki Bae[/b]\n\n\n[b]Jun K\nMinjae Bak[/b]\n\n\n[b]Mono[/b]\n\n\n[b]Kalos Kim\nLina Yi\nChristopher Addington[/b]\n\n\n[b]“Prelude_No.21”\nChris Zabriskie[/b]\n\n\n\n\n\n\n\n\n\n\n\n[b]Nanali Studios[/b],\n[b]박재환[/b]\n\n\n[b]한경진[/b]\n\n\n[b]한경진\n박재환\n강준호[/b]\n\n\n[b]서상지[/b]\n\n\n[b]이동욱\n김왕걸[/b]\n\n\n[b]정재순[/b]\n\n\n[b]배민기[/b]\n\n\n[b]강준호\n박민재[/b]\n\n\n[b]Mono[/b]\n\n\n[b]“Prelude_No.21”\nChris Zabriskie[/b]\n\n\n\n\n\n\n\n\n\n\n\n[b]김영대\n이리나\nChristopher Addington[/b]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[b]나날이 스튜디오[/b],,,,
+,,,,,,

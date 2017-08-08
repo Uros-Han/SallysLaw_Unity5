@@ -1,0 +1,293 @@
+
+atlas.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Traffic_light/base
+  rotate: true
+  xy: 167, 132
+  size: 122, 64
+  orig: 122, 64
+  offset: 0, 0
+  index: -1
+Traffic_light/base_fafa
+  rotate: false
+  xy: 2, 54
+  size: 122, 64
+  orig: 122, 64
+  offset: 0, 0
+  index: -1
+Traffic_light/nabi
+  rotate: false
+  xy: 107, 9
+  size: 10, 15
+  orig: 10, 15
+  offset: 0, 0
+  index: -1
+Traffic_light/nabi01
+  rotate: false
+  xy: 226, 115
+  size: 10, 15
+  orig: 10, 15
+  offset: 0, 0
+  index: -1
+Traffic_light/nabi02
+  rotate: true
+  xy: 42, 3
+  size: 19, 24
+  orig: 19, 24
+  offset: 0, 0
+  index: -1
+bird/fafa_01/body
+  rotate: false
+  xy: 2, 24
+  size: 29, 28
+  orig: 29, 28
+  offset: 0, 0
+  index: -1
+bird/fafa_01/body_cover
+  rotate: false
+  xy: 157, 70
+  size: 25, 26
+  orig: 25, 26
+  offset: 0, 0
+  index: -1
+bird/fafa_01/hair
+  rotate: true
+  xy: 184, 39
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+bird/fafa_01/head
+  rotate: false
+  xy: 194, 59
+  size: 11, 16
+  orig: 12, 17
+  offset: 0, 1
+  index: -1
+bird/fafa_01/leg
+  rotate: false
+  xy: 238, 107
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+bird/fafa_01/neck
+  rotate: false
+  xy: 157, 98
+  size: 8, 20
+  orig: 8, 20
+  offset: 0, 0
+  index: -1
+bird/fafa_01/tail
+  rotate: true
+  xy: 233, 216
+  size: 38, 14
+  orig: 38, 14
+  offset: 0, 0
+  index: -1
+bird/fafa_01/wing
+  rotate: false
+  xy: 64, 26
+  size: 29, 26
+  orig: 29, 26
+  offset: 0, 0
+  index: -1
+bird/fafa_02/body
+  rotate: false
+  xy: 126, 90
+  size: 29, 28
+  orig: 29, 28
+  offset: 0, 0
+  index: -1
+bird/fafa_02/body_cover
+  rotate: true
+  xy: 157, 42
+  size: 26, 25
+  orig: 26, 26
+  offset: 0, 1
+  index: -1
+bird/fafa_02/hair
+  rotate: true
+  xy: 119, 10
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+bird/sally_02/hair
+  rotate: true
+  xy: 119, 10
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+bird/fafa_02/head
+  rotate: false
+  xy: 68, 8
+  size: 11, 16
+  orig: 12, 17
+  offset: 0, 1
+  index: -1
+bird/fafa_02/leg
+  rotate: false
+  xy: 247, 107
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+bird/fafa_02/neck
+  rotate: true
+  xy: 157, 32
+  size: 8, 20
+  orig: 8, 20
+  offset: 0, 0
+  index: -1
+bird/fafa_02/tail
+  rotate: false
+  xy: 2, 8
+  size: 38, 14
+  orig: 38, 14
+  offset: 0, 0
+  index: -1
+bird/fafa_02/wing
+  rotate: false
+  xy: 95, 26
+  size: 29, 26
+  orig: 29, 26
+  offset: 0, 0
+  index: -1
+bird/sally_01/body
+  rotate: false
+  xy: 33, 24
+  size: 29, 28
+  orig: 29, 28
+  offset: 0, 0
+  index: -1
+bird/sally_01/body_cover
+  rotate: false
+  xy: 184, 77
+  size: 26, 25
+  orig: 26, 26
+  offset: 0, 1
+  index: -1
+bird/sally_01/hair
+  rotate: true
+  xy: 238, 120
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+bird/sally_01/head
+  rotate: false
+  xy: 81, 8
+  size: 11, 16
+  orig: 12, 17
+  offset: 0, 1
+  index: -1
+bird/sally_01/leg
+  rotate: false
+  xy: 207, 64
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+bird/sally_01/neck
+  rotate: false
+  xy: 184, 55
+  size: 8, 20
+  orig: 8, 20
+  offset: 0, 0
+  index: -1
+bird/sally_01/tail
+  rotate: true
+  xy: 233, 176
+  size: 38, 14
+  orig: 38, 14
+  offset: 0, 0
+  index: -1
+bird/sally_01/wing
+  rotate: false
+  xy: 126, 32
+  size: 29, 26
+  orig: 29, 26
+  offset: 0, 0
+  index: -1
+bird/sally_02/body
+  rotate: false
+  xy: 126, 60
+  size: 29, 28
+  orig: 29, 28
+  offset: 0, 0
+  index: -1
+bird/sally_02/body_cover
+  rotate: false
+  xy: 198, 104
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+bird/sally_02/head
+  rotate: false
+  xy: 94, 8
+  size: 11, 16
+  orig: 12, 17
+  offset: 0, 1
+  index: -1
+bird/sally_02/leg
+  rotate: false
+  xy: 196, 46
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+bird/sally_02/neck
+  rotate: false
+  xy: 212, 82
+  size: 8, 20
+  orig: 8, 20
+  offset: 0, 0
+  index: -1
+bird/sally_02/tail
+  rotate: true
+  xy: 233, 136
+  size: 38, 14
+  orig: 38, 14
+  offset: 0, 0
+  index: -1
+bird/sally_02/wing
+  rotate: false
+  xy: 167, 104
+  size: 29, 26
+  orig: 29, 26
+  offset: 0, 0
+  index: -1
+street_light/light_bug
+  rotate: false
+  xy: 212, 77
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+street_light/light_bug_blur
+  rotate: false
+  xy: 226, 103
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+street_light/tree_base_fafa
+  rotate: false
+  xy: 2, 188
+  size: 163, 66
+  orig: 163, 66
+  offset: 0, 0
+  index: -1
+street_light/tree_base_sally
+  rotate: false
+  xy: 2, 120
+  size: 163, 66
+  orig: 163, 66
+  offset: 0, 0
+  index: -1
