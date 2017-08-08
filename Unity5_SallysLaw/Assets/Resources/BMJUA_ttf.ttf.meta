@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 083fde6fb4d3b42f98bbf2628e5fbd50
+timeCreated: 1502177793
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: BM JUA_TTF
+  fontNames:
+  - BM JUA_TTF
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
