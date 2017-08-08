@@ -4,7 +4,7 @@ using System.Collections;
 public class TextFloat_UI : MonoBehaviour {
 	public bool m_bFatherText;
 	public bool m_bMemoryText;
-//	bool m_bShow; //알파값1 되면 true
+	//	bool m_bShow; //알파값1 되면 true
 
 	// Use this for initialization
 
@@ -59,34 +59,47 @@ public class TextFloat_UI : MonoBehaviour {
 
 	IEnumerator PC_TutorialText(string strKey)
 	{
-//		transform.GetChild (1).GetComponent<UILocalize> ().key = strKey + "_PC";
+		//		transform.GetChild (1).GetComponent<UILocalize> ().key = strKey + "_PC";
 
 		transform.GetChild (1).GetComponent<UILabel> ().text = string.Format(Localization.Get(strKey + "_PC"), "      ");
 
 		transform.GetChild(2).gameObject.SetActive(true);
-//		transform.GetChild (0).GetComponent<UIAnchor> ().enabled = false;
-//		transform.GetChild (1).GetComponent<UILabel>().pivot = UIWidget.Pivot.Left;
+		//		transform.GetChild (0).GetComponent<UIAnchor> ().enabled = false;
+		//		transform.GetChild (1).GetComponent<UILabel>().pivot = UIWidget.Pivot.Left;
 
 
-//		transform.GetChild (1).localPosition = new Vector2(-61f, 0);
+		//		transform.GetChild (1).localPosition = new Vector2(-61f, 0);
 
 		yield return null;
 		switch (Localization.language) {
-		case "中文简体":
+		case "SChinese":
 			transform.GetChild(2).GetChild(0).localPosition = new Vector2(105, 0); //keyboard
 			transform.GetChild(2).GetChild(1).localPosition = new Vector2(53.5f, -5); //stick
 			break;
 
-		case "中文繁體":
+		case "TChinese":
 			transform.GetChild(2).GetChild(0).localPosition = new Vector2(105, 0);
 			transform.GetChild(2).GetChild(1).localPosition = new Vector2(53.5f, -5);
+			break;
+
+		case "German":
+			transform.GetChild(2).GetChild(0).localPosition = new Vector2(202, -5);
+			transform.GetChild(2).GetChild(1).localPosition = new Vector2(160, -5);
+			break;
+
+		case "Spanish":
+			transform.GetChild(2).GetChild(1).localPosition = new Vector2(-119f, -5);
+			break;
+
+		case "Japanese":
+			//			transform.GetChild(2).GetChild(1).localPosition = new Vector2(-119f, -5);
 			break;
 
 		default:
 			break;
 		}
 
-//		transform.GetChild (0).localPosition = new Vector2(0, 40f);
+		//		transform.GetChild (0).localPosition = new Vector2(0, 40f);
 
 		if(PC_InputControl.getInstance.GetInputState() == PC_InputControl.eInputState.Controler)
 			GameObject.Find("UI Root").BroadcastMessage("SwapController", false ,SendMessageOptions.DontRequireReceiver);
@@ -97,7 +110,7 @@ public class TextFloat_UI : MonoBehaviour {
 	{
 		StopAllCoroutines ();
 	}
-	
+
 	public void SetLabelKey()
 	{
 		string strKey = transform.parent.GetComponent<UIFollowTarget> ().target.GetComponent<TextFloat_Pos> ().m_strKey;
@@ -113,11 +126,11 @@ public class TextFloat_UI : MonoBehaviour {
 				transform.GetChild (1).GetComponent<UISprite>().MakePixelPerfect();
 				transform.GetChild (1).localScale = new Vector2(0.25f, 0.25f);
 			}else if(strKey.Equals("1-01_02_S01") || strKey.Equals("5-01_02_S01")){
-#if UNITY_STANDALONE || UNITY_WEBGL
+				#if UNITY_STANDALONE
 				StartCoroutine(PC_TutorialText(strKey));
-#else
+				#else
 				transform.GetChild (1).GetComponent<UILocalize> ().key = strKey;
-#endif
+				#endif
 			}else
 				transform.GetChild (1).GetComponent<UILocalize> ().key = strKey;
 
@@ -151,9 +164,9 @@ public class TextFloat_UI : MonoBehaviour {
 			transform.GetChild (1).GetComponent<UILabel> ().text = strKey;
 		}
 		transform.GetChild (0).GetComponent<UIAnchor> ().enabled = true;
-	
 
-//		transform.GetChild (0).localPosition = new Vector2 (0,0.25f);
+
+		//		transform.GetChild (0).localPosition = new Vector2 (0,0.25f);
 	}
 
 	public void ChgTextColorToFather()
@@ -195,16 +208,16 @@ public class TextFloat_UI : MonoBehaviour {
 		panel.alpha = 0f;
 		do {
 
-//			if(sceneStatus.m_enPlayerStatus.Equals(PLAYER_STATUS.STAGE_CHG_SALLY) || sceneStatus.m_enPlayerStatus.Equals(PLAYER_STATUS.STAGE_CHG_FATHER))
-//			{
-//				panel.alpha = 0f;
-//			}
+			//			if(sceneStatus.m_enPlayerStatus.Equals(PLAYER_STATUS.STAGE_CHG_SALLY) || sceneStatus.m_enPlayerStatus.Equals(PLAYER_STATUS.STAGE_CHG_FATHER))
+			//			{
+			//				panel.alpha = 0f;
+			//			}
 
 			if(m_bMemoryText)
 			{
-				
+
 				fMaxAlpha = 0.2f;
-				
+
 				if(m_bFatherText)
 				{
 					if(sceneStatus.m_enPlayerStatus.Equals(PLAYER_STATUS.GUARDIAN))
@@ -221,7 +234,7 @@ public class TextFloat_UI : MonoBehaviour {
 							}else{
 								panel.alpha = fMaxAlpha;
 							}
-							
+
 						}else if(Vector2.Distance(FatherTrans.position , TargetTrans.position) > fFadeDistance && panel.alpha != 0f){
 							if(panel.alpha.Equals(fMaxAlpha))
 							{
@@ -239,7 +252,7 @@ public class TextFloat_UI : MonoBehaviour {
 						panel.alpha = 0f;
 					}
 				}else{
-					
+
 					if(sceneStatus.m_enPlayerStatus.Equals(PLAYER_STATUS.RUNNER) || sceneStatus.m_enPlayerStatus.Equals(PLAYER_STATUS.GUARDIAN))
 					{
 						if(Vector2.Distance(SallyTrans.position , TargetTrans.position) < fFadeDistance && SallyObj.activeInHierarchy && panel.alpha != fMaxAlpha)
@@ -272,7 +285,7 @@ public class TextFloat_UI : MonoBehaviour {
 						panel.alpha = 0f;
 					}
 				}
-				
+
 			}else{
 				if(m_bFatherText)
 				{

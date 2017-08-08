@@ -1976,6 +1976,14 @@ public class UICamera : MonoBehaviour
 	
 	void Start ()
 	{
+		#if UNITY_STANDALONE || UNITY_WEBGL
+		useMouse = false;
+		useTouch = false;
+		#else
+		useMouse = true;
+		useTouch = true;
+		#endif
+
 		list.Sort(CompareFunc);
 
 		if (eventType != EventType.World_3D && cachedCamera.transparencySortMode != TransparencySortMode.Orthographic)

@@ -21,9 +21,9 @@ public class CamMoveMgr : MonoBehaviour
 	public bool m_bFromPortal;
 
 	//Timeball vals
-//	bool m_bAteTimeBall;
-//	Vector3 m_vecExpandedCamPos;
-//	public float m_fTimeBallExpandLength;
+	//	bool m_bAteTimeBall;
+	//	Vector3 m_vecExpandedCamPos;
+	//	public float m_fTimeBallExpandLength;
 
 	public float m_fRunnerYPosFixer; //YPosition Plus  //샐리위치 y축 카메라 어느정도 위치일지 //높을수록 샐리가 카메라 하단에 붙어서보임
 	public float m_fGuardianYPosFixer;
@@ -97,9 +97,9 @@ public class CamMoveMgr : MonoBehaviour
 		StopAllCoroutines ();
 
 		StartCoroutine (FindTransforms (bActClear));
-		
-//		if(GameObject.Find ("Runner(Clone)") != null)
-//			m_fRunnerMaintainYPos = GameObject.Find ("Runner(Clone)").transform.position.y + m_fRunnerYPosFixer;
+
+		//		if(GameObject.Find ("Runner(Clone)") != null)
+		//			m_fRunnerMaintainYPos = GameObject.Find ("Runner(Clone)").transform.position.y + m_fRunnerYPosFixer;
 
 		transform.position = CamRestriction(transform.position, 0, true);
 	}
@@ -109,7 +109,7 @@ public class CamMoveMgr : MonoBehaviour
 		SceneStatus sceneStatus = SceneStatus.getInstance;
 		do{
 			yield return null;
-			
+
 			if ( GameObject.Find ("Objects").transform.GetChild (GameMgr.getInstance.m_iCurAct - 1).Find("Players").Find ("Runner(Clone)") != null) {
 				m_RunnerTransform = GameObject.Find ("Objects").transform.GetChild (GameMgr.getInstance.m_iCurAct - 1).Find("Players").Find ("Runner(Clone)").transform;
 
@@ -122,12 +122,12 @@ public class CamMoveMgr : MonoBehaviour
 				}
 			}
 
-			
+
 		}while(m_RunnerTransform == null);
 
 		do{
 			yield return null;
-			
+
 			if (GameObject.Find ("Objects").transform.GetChild (GameMgr.getInstance.m_iCurAct - 1).Find("Players").Find("Guardian(Clone)") != null) {
 				m_GuardianTransform = GameObject.Find ("Objects").transform.GetChild (GameMgr.getInstance.m_iCurAct - 1).Find("Players").Find ("Guardian(Clone)").transform;
 
@@ -140,7 +140,7 @@ public class CamMoveMgr : MonoBehaviour
 
 			}
 
-//			transform.position = CamRestriction(transform.position, 0, true);
+			//			transform.position = CamRestriction(transform.position, 0, true);
 
 		}while(m_GuardianTransform == null);
 
@@ -150,8 +150,8 @@ public class CamMoveMgr : MonoBehaviour
 			if (GameObject.Find ("R_Goal(Clone)") != null) {
 				m_GoalTransform = GameObject.Find ("R_Goal(Clone)").transform;
 
-//				//if(SceneStatus.getInstance.m_enPlayerStatus == PLAYER_STATUS.LOOK_AROUND)
-//					transform.position = m_GoalTransform.position;
+				//				//if(SceneStatus.getInstance.m_enPlayerStatus == PLAYER_STATUS.LOOK_AROUND)
+				//					transform.position = m_GoalTransform.position;
 			}
 
 
@@ -218,12 +218,12 @@ public class CamMoveMgr : MonoBehaviour
 
 				yield return new WaitForEndOfFrame ();
 
-//				CamYPosMove ();
+				//				CamYPosMove ();
 
 				if (!m_bRunnerInCenter) {
 					if(m_RunnerTransform.position.x < GetXPosofThisMap(true))
 					{
-					
+
 						m_bRunnerInCenter = true;
 
 						yield return StartCoroutine(CamToTarget (new Vector3(GetXPosofThisMap(true), transform.position.y, -10), 1.0f, PLAYER_STATUS.STAGE_CHG_SALLY, false));
@@ -251,13 +251,13 @@ public class CamMoveMgr : MonoBehaviour
 
 
 				yield return StartCoroutine(CamToTarget (new Vector3(GetXPosofThisMap(true), transform.position.y, -10), 1.0f, PLAYER_STATUS.STAGE_CHG_FATHER, false));
-					
+
 				sceneStatus.m_enPlayerStatus = PLAYER_STATUS.FATHER_ENTER;
 
 				GameMgr gMgr = GameMgr.getInstance;
 				gMgr.DisableBeforeAct ();
 				gMgr.FatherEnter();
-//				gMgr.ChangeBackgrounds (true);
+				//				gMgr.ChangeBackgrounds (true);
 
 			}else if (sceneStatus.m_enPlayerStatus.Equals(PLAYER_STATUS.SALLY_WAIT)) { 
 
@@ -294,7 +294,7 @@ public class CamMoveMgr : MonoBehaviour
 
 					if(m_bRunnerInCenter)
 						yield return StartCoroutine(CamToCenterOfRunnerAndGuardian(1f, PLAYER_STATUS.RUNNER));
-					
+
 					m_bRunnerInCenter = false;
 
 					transform.position = CenterOfRunnerAndGuardian;
@@ -345,7 +345,7 @@ public class CamMoveMgr : MonoBehaviour
 				m_bGuardianInCenter = false;
 				sceneStatus.m_enPlayerStatus = PLAYER_STATUS.FATHER_WAIT;
 				UIManager.getInstance.FatherWait ();
-//				StartCoroutine (SwipeMove ());
+				//				StartCoroutine (SwipeMove ());
 			}else if (sceneStatus.m_enPlayerStatus.Equals(PLAYER_STATUS.FATHER_WAIT)) {
 
 
@@ -366,30 +366,30 @@ public class CamMoveMgr : MonoBehaviour
 					}else
 						transform.position = CenterOfRunnerAndGuardian;
 				}
-			
 
-//				if(Input.GetKey(KeyCode.A))
-//					transform.position = new Vector3(transform.position.x - (4f * Time.deltaTime), transform.position.y, -10f);
-//				else if(Input.GetKey(KeyCode.D))
-//					transform.position = new Vector3(transform.position.x + (4f * Time.deltaTime), transform.position.y, -10f);
+
+				//				if(Input.GetKey(KeyCode.A))
+				//					transform.position = new Vector3(transform.position.x - (4f * Time.deltaTime), transform.position.y, -10f);
+				//				else if(Input.GetKey(KeyCode.D))
+				//					transform.position = new Vector3(transform.position.x + (4f * Time.deltaTime), transform.position.y, -10f);
 
 				transform.position = CamRestriction();
 				yield return new WaitForEndOfFrame ();
 
 			} else if (sceneStatus.m_enPlayerStatus.Equals(PLAYER_STATUS.CAM_TO_FATHER)) {
-				
+
 				yield return new WaitForEndOfFrame ();
 
-				yield return CamToTarget (new Vector3(m_GuardianTransform.position.x, m_GuardianTransform.transform.position.y + m_fGuardianYPosFixer, -10), 1f, PLAYER_STATUS.CAM_TO_FATHER);
+//				yield return CamToTarget (new Vector3(m_GuardianTransform.position.x, m_GuardianTransform.transform.position.y + m_fGuardianYPosFixer, -10), 1f, PLAYER_STATUS.CAM_TO_FATHER);
 
-//				if(CamToTarget (new Vector3(m_GuardianTransform.position.x, m_GuardianTransform.transform.position.y + m_fGuardianYPosFixer, -10), 0.04f, 0.01f))
-//					GameMgr.getInstance.GuardianStart();
+				//				if(CamToTarget (new Vector3(m_GuardianTransform.position.x, m_GuardianTransform.transform.position.y + m_fGuardianYPosFixer, -10), 0.04f, 0.01f))
+				//					GameMgr.getInstance.GuardianStart();
 
 				GameMgr.getInstance.GuardianStart();
 				m_bGuardianInCenter = false;
 				bGuradianCamTrigger = false;
 				transform.position = CamRestriction();
-				
+
 			} else if (sceneStatus.m_enPlayerStatus.Equals(PLAYER_STATUS.GUARDIAN)) { // guardian
 
 				float fDistance = Vector3.Distance(m_GuardianTransform.position, m_RunnerTransform.position);
@@ -402,11 +402,11 @@ public class CamMoveMgr : MonoBehaviour
 					Vector3 CenterOfRunnerAndGuardian = Vector3.Lerp(m_GuardianTransform.position, new Vector2(m_RunnerTransform.position.x, CamYPosMove(true)), 0.5f);
 					CenterOfRunnerAndGuardian = new Vector3(CenterOfRunnerAndGuardian.x, CenterOfRunnerAndGuardian.y, -10f);
 					m_bFromPortal = false;
-					
+
 					if(Camera.allCameras [0].orthographicSize != 3.5f)
 					{
 						StartCoroutine(CamToCenterOfRunnerAndGuardian(3f, PLAYER_STATUS.GUARDIAN));
-						
+
 						yield return StartCoroutine(CamZoomTarget(3.5f, 3f));
 					}else
 						m_camTutorial = CAM_TUTORIAL.NOT_TUTORIAL;
@@ -446,7 +446,7 @@ public class CamMoveMgr : MonoBehaviour
 						if(!m_bGuardianInCenter)
 							yield return StartCoroutine(CamToGuardian(1.5f, PLAYER_STATUS.GUARDIAN));
 
-	                    m_bGuardianInCenter = true;
+						m_bGuardianInCenter = true;
 						transform.position = new Vector3 (m_GuardianTransform.position.x, m_GuardianTransform.transform.position.y, -10);
 					}else{
 						bGuradianCamTrigger = bGuradianCamTrigger? false : true;
@@ -468,7 +468,7 @@ public class CamMoveMgr : MonoBehaviour
 
 				yield return new WaitForEndOfFrame ();
 
-//				transform.position = CamRestriction();
+				//				transform.position = CamRestriction();
 			}
 
 
@@ -478,20 +478,20 @@ public class CamMoveMgr : MonoBehaviour
 		} while(true);
 	}
 
-//	public IEnumerator Shake(float fXPow,float fYPow,float fTime)
-//	{
-//		m_bShaking = false;
-//
-//		Hashtable ht = new Hashtable();
-//		ht.Add("x", fXPow);
-//		ht.Add("y", fYPow);
-//		ht.Add("time", fTime);
-//
-//		iTween.ShakeRotation (gameObject, ht);
-//
-//		yield return new WaitForSeconds (fTime);
-//		m_bShaking = false;
-//	}
+	//	public IEnumerator Shake(float fXPow,float fYPow,float fTime)
+	//	{
+	//		m_bShaking = false;
+	//
+	//		Hashtable ht = new Hashtable();
+	//		ht.Add("x", fXPow);
+	//		ht.Add("y", fYPow);
+	//		ht.Add("time", fTime);
+	//
+	//		iTween.ShakeRotation (gameObject, ht);
+	//
+	//		yield return new WaitForSeconds (fTime);
+	//		m_bShaking = false;
+	//	}
 
 
 	public IEnumerator SwipeMove()
@@ -652,23 +652,23 @@ public class CamMoveMgr : MonoBehaviour
 					Camera.allCameras [i].orthographicSize = fDefaultOrtho;
 			}
 
-//			fDistance = transform.position.y - m_RunnerTransform.position.y;
-//			//가디언과 러너 세로 사이 거리구함
-//			
-//			if(fDistance < 0)
-//				fDistance *= -1f;
-//			//음수이면 양수로
-//			
-//			if (fDistance > fMin_Y_Distance) {
-//				
-//				float fTmpOrtho = fDistance - fMin_Y_Distance;
-//				
-//				for(int i = 0; i < Camera.allCamerasCount; ++i)
-//				{
-//					if(Camera.allCameras[i].gameObject.layer != 5) // not ui Camera
-//						Camera.allCameras[i].orthographicSize = 2.5f + fTmpOrtho;
-//				}
-//			}
+			//			fDistance = transform.position.y - m_RunnerTransform.position.y;
+			//			//가디언과 러너 세로 사이 거리구함
+			//			
+			//			if(fDistance < 0)
+			//				fDistance *= -1f;
+			//			//음수이면 양수로
+			//			
+			//			if (fDistance > fMin_Y_Distance) {
+			//				
+			//				float fTmpOrtho = fDistance - fMin_Y_Distance;
+			//				
+			//				for(int i = 0; i < Camera.allCamerasCount; ++i)
+			//				{
+			//					if(Camera.allCameras[i].gameObject.layer != 5) // not ui Camera
+			//						Camera.allCameras[i].orthographicSize = 2.5f + fTmpOrtho;
+			//				}
+			//			}
 		}
 
 
@@ -678,8 +678,8 @@ public class CamMoveMgr : MonoBehaviour
 
 
 	}
-	
-	
+
+
 	public Vector3 CamRestriction(Vector3 vecRestrictedPos = default(Vector3), float fTargetOrthoSize = 0f, bool bRestrictYOnly = false)
 	{
 		SceneStatus sceneStatus = SceneStatus.getInstance;
@@ -689,7 +689,7 @@ public class CamMoveMgr : MonoBehaviour
 
 		if (!bRestrictYOnly) {
 			float fWidth_Half = Camera.main.orthographicSize * Camera.main.aspect;
-			
+
 			float fLeftestXPos = sceneStatus.m_fStageXPosLeftest[GameMgr.getInstance.m_iCurAct-1] - 0.25f;
 			float fRightestXPos = sceneStatus.m_fStageXPos[GameMgr.getInstance.m_iCurAct-1] - 0.25f;
 
@@ -707,7 +707,7 @@ public class CamMoveMgr : MonoBehaviour
 
 		//가디언일때 젤 밑바닥밑으로 카메라안내려가게
 		if (sceneStatus.m_enPlayerStatus.Equals(PLAYER_STATUS.FATHER_WAIT) || sceneStatus.m_enPlayerStatus.Equals(PLAYER_STATUS.STAGE_CHG_FATHER)
-		    || sceneStatus.m_enPlayerStatus.Equals(PLAYER_STATUS.CAM_TO_FATHER) || sceneStatus.m_enPlayerStatus.Equals(PLAYER_STATUS.GUARDIAN)) {
+			|| sceneStatus.m_enPlayerStatus.Equals(PLAYER_STATUS.CAM_TO_FATHER) || sceneStatus.m_enPlayerStatus.Equals(PLAYER_STATUS.GUARDIAN)) {
 
 			if(fTargetOrthoSize == 0f)
 			{
@@ -726,7 +726,7 @@ public class CamMoveMgr : MonoBehaviour
 	float GetXPosofThisMap(bool bLeft)
 	{
 		float fWidth_Half = Camera.main.orthographicSize * Camera.main.aspect;
-		
+
 		float fLeftestXPos =SceneStatus.getInstance.m_fStageXPosLeftest[GameMgr.getInstance.m_iCurAct-1] - 0.25f;
 		float fRightestXPos = SceneStatus.getInstance.m_fStageXPos[GameMgr.getInstance.m_iCurAct-1] - 0.25f;
 
@@ -754,7 +754,7 @@ public class CamMoveMgr : MonoBehaviour
 
 		do{
 			yield return null;
-			
+
 		}while(startPanel.alpha < 0.001f);
 
 		do{
@@ -780,14 +780,14 @@ public class CamMoveMgr : MonoBehaviour
 		do {
 			yield return null;
 
-//			if(sceneStatus.m_enPlayerStatus != PLAYER_STATUS.STAGE_CHG_FATHER)
-//				transform.position = new Vector3 (transform.position.x, m_fRunnerMaintainYPos, -10);
-//			else
-//				transform.position = CamRestriction(transform.position, 0, true);
+			//			if(sceneStatus.m_enPlayerStatus != PLAYER_STATUS.STAGE_CHG_FATHER)
+			//				transform.position = new Vector3 (transform.position.x, m_fRunnerMaintainYPos, -10);
+			//			else
+			//				transform.position = CamRestriction(transform.position, 0, true);
 
 		} while(GameObject.Find ("Runner(Clone)") == null);
 	}
-	
+
 	IEnumerator RunnerInScreen()
 	{
 		do {
@@ -882,12 +882,12 @@ public class CamMoveMgr : MonoBehaviour
 
 	IEnumerator CamToCenterOfRunnerAndGuardian (float fTime, PLAYER_STATUS playerStatus , bool bCamrRestriction = true, float fTargetOrtho = 0f)
 	{
-		
+
 		Vector3 vecStart = transform.position;
-		
+
 		float fValue = 0f;
 		SceneStatus sceneStatus = SceneStatus.getInstance;
-		
+
 		do {
 			yield return new WaitForEndOfFrame();
 
@@ -900,73 +900,73 @@ public class CamMoveMgr : MonoBehaviour
 			}
 
 			fValue += (Time.unscaledDeltaTime / fTime);
-			
+
 			if(fValue > 1f)
 				fValue = 1f;
-			
+
 			transform.position = Vector3.Lerp (vecStart, CenterOfRunnerAndGuardian, Mathf.SmoothStep(0.0f, 1.0f, Mathf.SmoothStep(0.0f, 1.0f, fValue)));
-			
+
 			if(bCamrRestriction)
 				transform.position = CamRestriction(transform.position);
 			else
 				transform.position = CamRestriction(transform.position, 0, true);
 
-	
-			
+
+
 		} while(fValue != 1 && sceneStatus.m_enPlayerStatus.Equals(playerStatus));
-		
+
 	}
 
 	IEnumerator CamToGuardian (float fTime, PLAYER_STATUS playerStatus , bool bCamrRestriction = true)
 	{
 
 		Vector3 vecStart = transform.position;
-		
+
 		float fValue = 0f;
 		SceneStatus sceneStatus = SceneStatus.getInstance;
-		
+
 		do {
 			yield return new WaitForEndOfFrame();
 			fValue += (Time.unscaledDeltaTime / fTime);
-			
+
 			if(fValue > 1f)
 				fValue = 1f;
-			
+
 			transform.position = Vector3.Lerp (vecStart, new Vector3(m_GuardianTransform.position.x, m_GuardianTransform.position.y, -10), Mathf.SmoothStep(0.0f, 1.0f, Mathf.SmoothStep(0.0f, 1.0f, fValue)));
-			
+
 			if(bCamrRestriction)
 				transform.position = CamRestriction(transform.position);
 			else
 				transform.position = CamRestriction(transform.position, 0, true);
-			
+
 		} while(fValue != 1 && sceneStatus.m_enPlayerStatus.Equals(playerStatus));
-		
+
 	}
 
 	IEnumerator CamToRunner (float fTime, PLAYER_STATUS playerStatus , bool bCamrRestriction = true)
 	{
-		
+
 		Vector3 vecStart = transform.position;
-		
+
 		float fValue = 0f;
 		SceneStatus sceneStatus = SceneStatus.getInstance;
-		
+
 		do {
 			yield return new WaitForEndOfFrame();
 			fValue += (Time.unscaledDeltaTime / fTime);
-			
+
 			if(fValue > 1f)
 				fValue = 1f;
-			
+
 			transform.position = Vector3.Lerp (vecStart, new Vector3(m_RunnerTransform.position.x, m_RunnerTransform.position.y, -10), Mathf.SmoothStep(0.0f, 1.0f, Mathf.SmoothStep(0.0f, 1.0f, fValue)));
-			
+
 			if(bCamrRestriction)
 				transform.position = CamRestriction(transform.position);
 			else
 				transform.position = CamRestriction(transform.position, 0, true);
-			
+
 		} while(fValue != 1 && sceneStatus.m_enPlayerStatus.Equals(playerStatus));
-		
+
 	}
 
 
@@ -977,23 +977,23 @@ public class CamMoveMgr : MonoBehaviour
 
 		Vector3 m_vecTmp = Vector3.Normalize (vecTarget - transform.position);
 
-		
+
 		if (Vector2.Distance (transform.position, vecTarget) < fDistance)
 			return true;
 
 		transform.position = transform.position + (m_vecTmp * fCamSpeed * Time.deltaTime * fSpeed);
 		transform.position = new Vector3 (transform.position.x, transform.position.y, -10);
-		
+
 		return false;
 	}
 
-//	public void EatTimeBall(GameObject timeBallObj)
-//	{
-//		m_vecExpandedCamPos = transform.position + new Vector3(-m_fTimeBallExpandLength,0,0);
-//		m_bAteTimeBall = true;
-//
-//		StartCoroutine (timeBallObj.GetComponent<Timeball>().Destroyer());
-//	}
+	//	public void EatTimeBall(GameObject timeBallObj)
+	//	{
+	//		m_vecExpandedCamPos = transform.position + new Vector3(-m_fTimeBallExpandLength,0,0);
+	//		m_bAteTimeBall = true;
+	//
+	//		StartCoroutine (timeBallObj.GetComponent<Timeball>().Destroyer());
+	//	}
 
 
 	float CamYPosMove (bool bReturn = false)
@@ -1026,9 +1026,9 @@ public class CamMoveMgr : MonoBehaviour
 		return 0;
 
 	}
-//
-//	public void ToGuardianCam()
-//	{
-//		transform.localPosition = m_vecFirstCamPos;
-//	}
+	//
+	//	public void ToGuardianCam()
+	//	{
+	//		transform.localPosition = m_vecFirstCamPos;
+	//	}
 }

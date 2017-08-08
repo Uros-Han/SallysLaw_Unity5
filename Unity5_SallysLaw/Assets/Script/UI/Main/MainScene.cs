@@ -422,6 +422,8 @@ public class MainScene : MonoBehaviour {
 			    || Input.GetKeyUp (KeyCode.JoystickButton0))
 			   #elif UNITY_STANDALONE_OSX
 			    || Input.GetKeyUp (KeyCode.JoystickButton16))
+				#elif UNITY_WEBGL
+				)
 				#else
 				|| Input.GetMouseButtonUp(0))
 				#endif 
