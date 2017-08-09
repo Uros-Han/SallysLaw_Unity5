@@ -59,7 +59,8 @@ public class MainSceneButtons : MonoBehaviour {
 		{
 			if (transform.parent.name.Equals ("Confirm")) {
 				AudioMgr.getInstance.PlaySfx (GameObject.Find ("SFX").GetComponent<AudioSource> (), "ui_bundle", (int)UI_SOUND_LIST.BUTTON_ENTER);
-				Application.Quit();
+//				Application.Quit();
+				JumpManager.getInstance.Exit();
 			}else{
 				AudioMgr.getInstance.PlaySfx (GameObject.Find ("SFX").GetComponent<AudioSource> (), "ui_bundle", (int)UI_SOUND_LIST.BUTTON_EXIT);
 				StartCoroutine (MainScene.getInstance.ToReallyQuit (false));

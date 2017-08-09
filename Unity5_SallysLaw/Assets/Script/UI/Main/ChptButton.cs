@@ -22,10 +22,11 @@ public class ChptButton : MonoBehaviour {
 
 			StartCoroutine(MainScene.getInstance.WorldToStage(true));
 
+			if (gameObject.name == "5-") {
+				GameObject.Find ("6-").GetComponent<TweenAlpha> ().Play (true);
+			}
 		}
 	}
-
-
 
 	void MoveOrder(bool bMsg)
 	{

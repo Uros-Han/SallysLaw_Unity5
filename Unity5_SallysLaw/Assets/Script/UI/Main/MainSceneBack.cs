@@ -16,7 +16,12 @@ public class MainSceneBack : MonoBehaviour {
 		case MainUIStatus.STAGE:
 			#if UNITY_STANDALONE || UNITY_WEBGL
 			GameObject.Find("Cursor").GetComponent<Cursor_World>().EscapeInStage();
+			if((int)GameObject.Find("Cursor").GetComponent<Cursor_World>().m_cursorWorld == 5)
+			{
+				GameObject.Find ("6-").GetComponent<TweenAlpha> ().Play (false);
+			}
 			#endif
+
 			StartCoroutine(MainScene.getInstance.WorldToStage(false));
 			break;
 

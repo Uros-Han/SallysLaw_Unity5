@@ -126,7 +126,7 @@ public class TextFloat_UI : MonoBehaviour {
 				transform.GetChild (1).GetComponent<UISprite>().MakePixelPerfect();
 				transform.GetChild (1).localScale = new Vector2(0.25f, 0.25f);
 			}else if(strKey.Equals("1-01_02_S01") || strKey.Equals("5-01_02_S01")){
-				#if UNITY_STANDALONE
+				#if UNITY_STANDALONE || UNITY_WEBGL
 				StartCoroutine(PC_TutorialText(strKey));
 				#else
 				transform.GetChild (1).GetComponent<UILocalize> ().key = strKey;

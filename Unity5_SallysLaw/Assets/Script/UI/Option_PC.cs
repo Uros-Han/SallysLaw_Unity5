@@ -36,24 +36,24 @@ public class Option_PC : MonoBehaviour {
 		}
 		m_bTmpFullScreen = m_bCurFullScreen;
 
-		transform.Find ("Resolution").GetChild (1).GetChild (1).GetComponent<UILabel> ().text = string.Format("{0}x{1}",Screen.resolutions[m_iCurResolutionIdx].width,Screen.resolutions[m_iCurResolutionIdx].height);
+//		transform.Find ("Resolution").GetChild (1).GetChild (1).GetComponent<UILabel> ().text = string.Format("{0}x{1}",Screen.resolutions[m_iCurResolutionIdx].width,Screen.resolutions[m_iCurResolutionIdx].height);
 
 
-		for(int i = 0 ; i < Localization.knownLanguages.Length; ++i)
-		{
-			if(Localization.language == Localization.knownLanguages[i])
-			{
-				m_iCurLang = i;
-				m_iTmpLang = m_iCurLang;
-				break;
-			}
-		}
-		transform.Find ("Lang").GetChild (1).GetChild (1).GetComponent<UILabel> ().text = Localization.language;
-
-
-		transform.Find ("Resolution").GetChild (0).GetComponent<UILabel>().text = Localization.Get("Resolution");
-		transform.Find ("WindowMode").GetChild (0).GetComponent<UILabel>().text = Localization.Get("ScreenMode");
-		transform.Find ("Lang").GetChild (0).GetComponent<UILabel>().text = Localization.Get("Lan");
+//		for(int i = 0 ; i < Localization.knownLanguages.Length; ++i)
+//		{
+//			if(Localization.language == Localization.knownLanguages[i])
+//			{
+//				m_iCurLang = i;
+//				m_iTmpLang = m_iCurLang;
+//				break;
+//			}
+//		}
+//		transform.Find ("Lang").GetChild (1).GetChild (1).GetComponent<UILabel> ().text = Localization.language;
+//
+//
+//		transform.Find ("Resolution").GetChild (0).GetComponent<UILabel>().text = Localization.Get("Resolution");
+//		transform.Find ("WindowMode").GetChild (0).GetComponent<UILabel>().text = Localization.Get("ScreenMode");
+//		transform.Find ("Lang").GetChild (0).GetComponent<UILabel>().text = Localization.Get("Lan");
 
 		gMgr = GameMgr.getInstance;
 	}

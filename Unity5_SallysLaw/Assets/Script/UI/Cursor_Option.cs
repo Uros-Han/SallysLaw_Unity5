@@ -242,17 +242,17 @@ public class Cursor_Option : MonoBehaviour {
 		{
 		case CURSOR_OPTION_STATE.SOUND:
 			if(bDown){
-				transform.localPosition = new Vector2(-550, 205);
+				transform.localPosition = new Vector2(-550, 55);
 				m_CursorState = CURSOR_OPTION_STATE.MUSIC;
 			}
 			break;
 
 		case CURSOR_OPTION_STATE.MUSIC:
 			if(bDown){
-				transform.localPosition = new Vector2(-550, 105);
-				m_CursorState = CURSOR_OPTION_STATE.RESOLUTION;
+				transform.localPosition = new Vector2(-550, -55);
+				m_CursorState = CURSOR_OPTION_STATE.CONTROL;
 			}else{
-				transform.localPosition = new Vector2(-550, 305);
+				transform.localPosition = new Vector2(-550, 155);
 				m_CursorState = CURSOR_OPTION_STATE.SOUND;
 			}
 			break;
@@ -289,17 +289,17 @@ public class Cursor_Option : MonoBehaviour {
 
 		case CURSOR_OPTION_STATE.CONTROL:
 			if(bDown){
-				transform.localPosition = new Vector2(-550, -295);
+				transform.localPosition = new Vector2(-550, -155);
 				m_CursorState = CURSOR_OPTION_STATE.CREDIT;
 			}else{
-				transform.localPosition = new Vector2(-550, -95);
-				m_CursorState = CURSOR_OPTION_STATE.LANGUAGE;
+				transform.localPosition = new Vector2(-550, 55);
+				m_CursorState = CURSOR_OPTION_STATE.MUSIC;
 			}
 			break;
 
 		case CURSOR_OPTION_STATE.CREDIT:
 			if(!bDown){
-				transform.localPosition = new Vector2(-550, -195);
+				transform.localPosition = new Vector2(-550, -55);
 				m_CursorState = CURSOR_OPTION_STATE.CONTROL;
 			}
 			break;

@@ -70,7 +70,8 @@ public class Cursor_Quit : MonoBehaviour {
 		switch(m_cursorState)
 		{
 		case CURSOR_QUIT_STATE.YES:
-			Application.Quit();
+//			Application.Quit();
+			JumpManager.getInstance.Exit();
 			break;
 			
 		case CURSOR_QUIT_STATE.NO:

@@ -195,7 +195,6 @@ public class GameMgr : MonoBehaviour {
 				break;
 			}
 
-			PlayerPrefs.SetInt ("Lang", 2);
 #if UNITY_STANDALONE || UNITY_WEBGL
 
 			PlayerPrefs.SetFloat("SoundVolume",1f);
@@ -203,7 +202,8 @@ public class GameMgr : MonoBehaviour {
 			PlayerPrefs.SetInt ("FullScreen", 1);
 
 			PlayerPrefs.SetInt ("Resolution", Screen.resolutions.Length - 1);
-			Screen.SetResolution(Screen.resolutions[PlayerPrefs.GetInt("Resolution")].width, Screen.resolutions[PlayerPrefs.GetInt("Resolution")].height, true);
+//			Screen.SetResolution(Screen.resolutions[PlayerPrefs.GetInt("Resolution")].width, Screen.resolutions[PlayerPrefs.GetInt("Resolution")].height, true);
+//			Screen.SetResolution(1280, 720, false);
 #endif
 
 			m_iOpenedChpt = 1;
@@ -237,13 +237,17 @@ public class GameMgr : MonoBehaviour {
 			}
 		}
 
+		PlayerPrefs.SetInt ("Lang", 0);
+
 		Debug.Log (PlayerPrefs.GetInt ("Lang"));
 
 		#if UNITY_STANDALONE || UNITY_WEBGL
-		if(PlayerPrefs.GetInt ("FullScreen").Equals(1))
-			Screen.SetResolution(Screen.resolutions[PlayerPrefs.GetInt("Resolution")].width, Screen.resolutions[PlayerPrefs.GetInt("Resolution")].height, true);
-		else
-			Screen.SetResolution(Screen.resolutions[PlayerPrefs.GetInt("Resolution")].width, Screen.resolutions[PlayerPrefs.GetInt("Resolution")].height, false);
+//		if(PlayerPrefs.GetInt ("FullScreen").Equals(1))
+//			Screen.SetResolution(Screen.resolutions[PlayerPrefs.GetInt("Resolution")].width, Screen.resolutions[PlayerPrefs.GetInt("Resolution")].height, true);
+//		else
+//			Screen.SetResolution(Screen.resolutions[PlayerPrefs.GetInt("Resolution")].width, Screen.resolutions[PlayerPrefs.GetInt("Resolution")].height, false);
+
+//		Screen.SetResolution(1280, 720, false);
 		#endif
 
 
@@ -1158,7 +1162,7 @@ public class GameMgr : MonoBehaviour {
 
 	#if UNITY_STANDALONE || UNITY_WEBGL
 
-	GameObject invisibleObject = Resources.Load ("Prefabs/invisibleObject")as GameObject;
+//	GameObject invisibleObject = Resources.Load ("Prefabs/invisibleObject")as GameObject;
 
 //	void OnLevelWasLoaded(int level)
 //	{
