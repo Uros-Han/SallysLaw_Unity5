@@ -22,17 +22,20 @@ public class JumpManager : MonoBehaviour {
 
 	public JumpPlugin jumpPlugin;
 	public UILabel label;
+	public bool m_bInitialized;
 
 	// Use this for initialization
 	void Start() {
 		jumpPlugin.Initialized += JumpPlugin_Initialized;
-		label = GameObject.Find ("MainPanel").transform.GetChild (2).GetComponent<UILabel> ();
-		label.text = "userID: " + "error";
+//		label = GameObject.Find ("MainPanel").transform.GetChild (2).GetComponent<UILabel> ();
+//		label.text = "userID: " + "error";
 	}
 
 	void JumpPlugin_Initialized (object sender, System.EventArgs e)
 	{
-		label.text = "userID: " + jumpPlugin.userId;
+		m_bInitialized = true;
+
+//		label.text = "userID: " + jumpPlugin.userId;
 		GameObject.Find("JumpPlugin").GetComponent<PlayFabManager>().LoginToPlayFab(jumpPlugin.userId);
 	}
 	

@@ -94,6 +94,8 @@ public class PlayFabManager : MonoBehaviour {
 					//{
 					//	Debug.Log(item.Key + " = " + item.Value.Value);
 					//}
+
+					CloudMgr.getInstance.GameData_Load();
 				}
 			},
 			(error) =>

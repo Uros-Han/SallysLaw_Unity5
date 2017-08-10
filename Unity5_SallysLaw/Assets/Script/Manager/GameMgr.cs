@@ -140,7 +140,7 @@ public class GameMgr : MonoBehaviour {
 		}
 
 
-//		m_bCloud = false;
+		m_bCloud = false;
 
 #if UNITY_IOS
 		if (m_bCloud && iCloudBinding.documentStoreAvailable()) {
@@ -150,10 +150,9 @@ public class GameMgr : MonoBehaviour {
 			CloudLoad();
 		}else
 			CloudMgr.getInstance.GameData_Load();
-#elif UNITY_STANDALONE || UNITY_WEBGL
+#elif UNITY_STANDALONE
 //		CloudMgr.getInstance.GameData_Load();
 #endif
-		CloudMgr.getInstance.GameData_Load();
 	}
 
 	void PrefsCheck()

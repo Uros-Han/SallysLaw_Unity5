@@ -138,7 +138,13 @@ public class CloudMgr : MonoBehaviour {
 
 		m_Gamedata = CompareBeforeSave(m_Gamedata, FileSystem.ReadGameDataFromFile ("SaveData"));
 
-		FileSystem.WriteGameDataFromFile(m_Gamedata, "SaveData");
+		if (!JumpManager.getInstance.m_bInitialized) {
+			Debug.Log ("Jump not Inited. Save is cancled");
+			return;
+		}
+
+		PlayFabFileSystem.WriteGameDataFromFile (m_Gamedata);
+//		FileSystem.WriteGameDataFromFile(m_Gamedata, "SaveData");
 		Debug.Log ("Save GameData Complete");
 
 		if (!GameMgr.getInstance.m_bCloud)
@@ -158,29 +164,30 @@ public class CloudMgr : MonoBehaviour {
 
 	public void GameData_Load()
 	{
-		Debug.Log ("Try Gamedata Load");
-		m_ByteGameData = CurrentSaveDAta;
+//		Debug.Log ("Try Gamedata Load");
+//		m_ByteGameData = CurrentSaveDAta;
 
-		if (m_ByteGameData != null && m_ByteGameData.Length != 0 &&GameMgr.getInstance.m_bCloud) {
-			BinaryFormatter b = new BinaryFormatter ();
-			MemoryStream m = new MemoryStream (m_ByteGameData);
-
-			m_Gamedata = b.Deserialize (m) as GameData;
-
-			m_Gamedata = CompareSaveData(m_Gamedata, FileSystem.ReadGameDataFromFile ("SaveData"));
-
-			Debug.Log ("Move CloudData to CurrentSaveData");
-		} else {
+//		if (m_ByteGameData != null && m_ByteGameData.Length != 0 &&GameMgr.getInstance.m_bCloud) {
+//			BinaryFormatter b = new BinaryFormatter ();
+//			MemoryStream m = new MemoryStream (m_ByteGameData);
+//
+//			m_Gamedata = b.Deserialize (m) as GameData;
+//
+//			m_Gamedata = CompareSaveData(m_Gamedata, FileSystem.ReadGameDataFromFile ("SaveData"));
+//
+//			Debug.Log ("Move CloudData to CurrentSaveData");
+//		} else {
 
 			Debug.Log("LocalLoad");
-			m_Gamedata = FileSystem.ReadGameDataFromFile ("SaveData");
+			m_Gamedata = PlayFabFileSystem.ReadGameDataFromFile ();
+//			m_Gamedata = FileSystem.ReadGameDataFromFile ("SaveData");
 			if(m_Gamedata == null)
 			{
 				Create_SaveData();
 				CurrentSaveDAta = null;
 				return;
 			}
-		}
+//		}
 
 		CurrentSaveDAta = null;
 		GameMgr.getInstance.m_iOpenedChpt = m_Gamedata.m_iChapter;
