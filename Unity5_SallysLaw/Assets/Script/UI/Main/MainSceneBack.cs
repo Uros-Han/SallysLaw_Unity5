@@ -69,7 +69,7 @@ public class MainSceneBack : MonoBehaviour {
 
 	void Update()
 	{
-		if (Input.GetKeyUp (KeyCode.Escape)
+		if (Input.GetKeyUp (KeyCode.Backspace)
 		    #if UNITY_STANDALONE_WIN
 		    ||  Input.GetKeyUp (KeyCode.JoystickButton1))
 			#elif UNITY_STANDALONE_OSX

@@ -224,7 +224,7 @@ public class MainScene : MonoBehaviour {
 
 		while(gameMgr.m_uiStatus.Equals(MainUIStatus.WORLD)){
 
-			if(Input.GetKeyDown(KeyCode.Escape))
+			if(Input.GetKeyDown(KeyCode.Backspace))
 			{
 				ToMain();
 			}

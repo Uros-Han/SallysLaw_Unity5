@@ -135,9 +135,9 @@ public class GameMgr : MonoBehaviour {
 
 		PrefsCheck ();
 
-		if (Application.loadedLevelName.Equals ("Main")) {
-			GameObject.Find("FadePanel").GetComponent<MainFade>().DontFadeNow();
-		}
+//		if (Application.loadedLevelName.Equals ("Main")) {
+//			GameObject.Find("FadePanel").GetComponent<MainFade>().DontFadeNow();
+//		}
 
 
 		m_bCloud = false;

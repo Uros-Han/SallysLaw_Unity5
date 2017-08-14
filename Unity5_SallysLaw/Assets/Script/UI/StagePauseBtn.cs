@@ -64,7 +64,7 @@ public class StagePauseBtn : MonoBehaviour {
 
 	void Update()
 	{
-		if (Input.GetKeyUp (KeyCode.Escape)
+		if (Input.GetKeyUp (KeyCode.Backspace)
 #if UNITY_STANDALONE_OSX
 		    || Input.GetKeyUp (KeyCode.JoystickButton9))
 #elif UNITY_STANDALONE_WIN
