@@ -31,7 +31,7 @@ public class LanguageSelect : MonoBehaviour {
 			}
 			
 			
-			Localization.language = transform.parent.GetChild (1).GetComponent<UILabel> ().text;
+			Localization.language = transform.parent.gameObject.name;
 			
 			for(int i = 0 ; i < Localization.knownLanguages.Length; ++i)
 			{
@@ -60,6 +60,10 @@ public class LanguageSelect : MonoBehaviour {
 			
 		case FontType.Jua:
 			tmpFont = FontType.Jua;
+			break;
+
+		case FontType.GenJyuu:
+			tmpFont = FontType.GenJyuu;
 			break;
 		}
 		
