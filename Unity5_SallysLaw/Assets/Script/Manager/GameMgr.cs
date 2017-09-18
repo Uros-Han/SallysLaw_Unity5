@@ -178,6 +178,10 @@ public class GameMgr : MonoBehaviour {
 				PlayerPrefs.SetInt ("Lang", 0);
 				break;
 				
+			case SystemLanguage.Korean:
+				PlayerPrefs.SetInt ("Lang", 1);
+				break;
+
 			case SystemLanguage.Chinese:
 				PlayerPrefs.SetInt ("Lang", 2);
 				break;
@@ -194,8 +198,8 @@ public class GameMgr : MonoBehaviour {
 				PlayerPrefs.SetInt ("Lang", 0);
 				break;
 			}
+			PlayerPrefs.SetInt ("Lang", 0);
 
-			PlayerPrefs.SetInt ("Lang", 2);
 #if UNITY_STANDALONE || UNITY_WEBGL
 
 			PlayerPrefs.SetFloat("SoundVolume",1f);
@@ -218,6 +222,10 @@ public class GameMgr : MonoBehaviour {
 			case SystemLanguage.English:
 				PlayerPrefs.SetInt ("Lang", 0);
 				break;
+
+			case SystemLanguage.Korean:
+				PlayerPrefs.SetInt ("Lang", 1);
+				break;
 				
 			case SystemLanguage.Chinese:
 				PlayerPrefs.SetInt ("Lang", 2);
@@ -232,7 +240,7 @@ public class GameMgr : MonoBehaviour {
 				break;
 				
 			default:
-				PlayerPrefs.SetInt ("Lang", 2);
+				PlayerPrefs.SetInt ("Lang", 0);
 				break;
 			}
 		}

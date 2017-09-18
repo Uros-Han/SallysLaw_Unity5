@@ -35,7 +35,7 @@ public class LanguageSelect : MonoBehaviour {
 			
 			for(int i = 0 ; i < Localization.knownLanguages.Length; ++i)
 			{
-				if(transform.parent.GetChild (1).GetComponent<UILabel> ().text == Localization.knownLanguages[i])
+				if(transform.parent.gameObject.name == Localization.knownLanguages[i])
 				{
 					PlayerPrefs.SetInt ("Lang", i);
 					break;
